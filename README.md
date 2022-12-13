@@ -9,7 +9,7 @@
 - Then search for `multix` in Boards Manager.
 - Select the desired architecture and install.\
   `megaAVR` `modernAVR` `reduceAVR`
-- For more information (ja-JP)
+- [For more information](InformationSDK.md) (ja-JP)
 
 ## Product "Duino" : modernAVR Board with Battery Powered
 
