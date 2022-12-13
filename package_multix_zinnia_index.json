@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-modernAVR-0.0.1.zip",
-          "checksum": "SHA-256:dd3cef792e22528d1202b49fbc2919746d7e3438890311546a8d618002c2b5e9",
+          "checksum": "SHA-256:f17bc4800af4fee68925ffae06761c0bddf8bd3724aa1cb1d43a91a5872fb2d5",
           "size": "528379",
           "boards": [
             {
@@ -54,7 +54,7 @@
           "category": "Contributed",
           "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-megaAVR-0.0.1.zip",
-          "checksum": "SHA-256:e99e3260df0e3860bbe0398555def200a8f378b28cee5cfb9fdd24b70ae1966c",
+          "checksum": "SHA-256:380fe9e91ec742d2d9cb33678dc2dec7fe4f54b12230cbe16105acc51dffb242",
           "size": "545431",
           "boards": [
             {
@@ -95,7 +95,7 @@
           "category": "Contributed",
           "url": "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-reduceAVR-0.0.1.zip",
-          "checksum": "SHA-256:190bd275a554d771dc08f6cd8a58296127c0c96714c6dcb4b5c23d1032eeb9b3",
+          "checksum": "SHA-256:6f32c438b54a5b39724c277c0b745087112165d12ad2b04dc0fe0865533d66c6",
           "size": "61490",
           "boards": [
             {
