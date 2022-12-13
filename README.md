@@ -5,7 +5,7 @@
 ## Multix Zinnia Product SDK [*AVR] for Arduino IDE
 
 - Please add the following link to your Arduino IDE preferences.\
-  `https://askn37.github.io/package_multix_zinnia_index.json`
+  [`https://askn37.github.io/package_multix_zinnia_index.json`](https://askn37.github.io/package_multix_zinnia_index.json)
 - Then search for `multix` in Boards Manager.
 - Select the desired architecture and install.\
   `megaAVR` `modernAVR` `reduceAVR`
@@ -13,8 +13,8 @@
 
 ## Product "Duino" : modernAVR Board with Battery Powered
 
-[<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg" width="397">](product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg)
-[<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg" width="397">](product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg)
+[<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg)
+[<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg)
 
 - Battery powered board with modernAVR. (79x53mm)
 - Adopts Microchip AVR DA/DB/DD or Atmel ATmega**08 series. (TQFP32)
@@ -27,7 +27,7 @@
 
 ## Product "UPDI4AVR" : UPDI Programer Writer with High-Voltage Activation
 
-[<img src="product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg" width="240">](product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg)
+[<img src="product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg" width="240">](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg)
 
 - UPDI programmer writer with HV activation. (66x32mm)
 - It can also be reset without destroying the functionality of the target MCU's UPDI pin.
@@ -36,7 +36,7 @@
 
 ## Product "TPI4AVR" : TPI Programer Writer with High-Voltage Activation
 
-[<img src="product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg" width="240">](product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg)
+[<img src="product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg" width="240">](https://askn37.github.io/product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg)
 
 - TPI programmer writer with HV activation. (66x32mm)
 - Additional SOT-23 conversion sockets can be added and signals can be extracted.
@@ -45,7 +45,7 @@
 
 ## Product "UPDI Reset Plus" Snap-On Circuit
 
-[<img src="product/URP/2213_Zinnia-URP-MZU2213A/Zinnia-URP-MZU2213A_top.svg" width="120">](product/URP/2213_Zinnia-URP-MZU2213A/Zinnia-URP-MZU2213A_top.svg)
+[<img src="product/URP/2213_Zinnia-URP-MZU2213A/Zinnia-URP-MZU2213A_top.svg" width="120">](https://askn37.github.io/product/URP/2213_Zinnia-URP-MZU2213A/Zinnia-URP-MZU2213A_top.svg)
 
 - Additional circuitry that allows the UPDI pin to be a RESET button. (16x12mm)
 - It's convenient because you don't have to lose the functionality of the UPDI pin.
