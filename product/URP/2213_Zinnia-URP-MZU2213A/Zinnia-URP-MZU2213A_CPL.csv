@@ -1,0 +1,5 @@
+#Designator,Mid X mm,Mid Y mm,Layer,Rotation
+C1,152.25,75.25,T,180
+SW1,150.5,67.75,T,0
+U1,157,75.25,T,0
+CN1,153.81,73.25,B,0

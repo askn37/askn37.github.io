@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="425.197" height="330.709"  viewBox="-163.5 -78.5 18 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<style>
+text{stroke:none;font-weight:bold;font-family:"Consolas","Courier New",monospace;}
+g.symbol{visibility:hidden;}g.footprint{stroke:black;}
+.DRL{stroke:silver;fill:none;stroke-width:0.05;}
+.via{visibility:hidden;}
+.black{stroke:black;fill:black;}
+.mask{stroke:white;fill:white;}
+</style>
+<!-- Symbol and Parts Libraries Description -->
+<defs>
+<!-- Gerber Layer -->
+<clipPath id="BOARD" clip-rule="evenodd"><path stroke="none" fill-rule="evenodd" d="M162.5,65.5L162.5,77.5L146.5,77.5L146.5,65.5L162.5,65.5Z"/></clipPath>
+<g id="OUT" stroke-linecap="round" stroke-linejoin="round"><path d="M162.5,65.5L162.5,77.5L146.5,77.5L146.5,65.5L162.5,65.5Z"/></g>
+<rect id="FIL" x="146.5" y="65.5" width="16" height="12"/>
+<g id="DRL"><g class="pad"><circle cx="150.5" cy="69.1" r="0.35"/><circle cx="150.5" cy="66.4" r="0.35"/><circle cx="155.08" cy="66.9" r="0.4"/><circle cx="160.16" cy="66.9" r="0.4"/><circle cx="161.43" cy="66.9" r="0.4"/><circle cx="156.35" cy="66.9" r="0.4"/><circle cx="157.62" cy="66.9" r="0.4"/><circle cx="158.89" cy="66.9" r="0.4"/><circle cx="148.73" cy="73.25" r="0.4"/><circle cx="151.27" cy="73.25" r="0.4"/><circle cx="151.27" cy="70.71" r="0.4"/><circle cx="148.73" cy="70.71" r="0.6"/><circle cx="153.81" cy="70.71" r="0.6"/><circle cx="153.81" cy="73.25" r="0.6"/><circle cx="158.89" cy="70.71" r="1.6"/></g><g class="via"><circle cx="157" cy="74.625" r="0.15"/><circle cx="159.75" cy="76.075" r="0.15"/></g></g>
+</defs>
+<!-- Rendering View Port -->
+<g transform="scale(-1,-1)" clip-path="url(#BOARD)">
+<use xlink:href="#DRL" class="DRL"/>
+<use xlink:href="#OUT" stroke="gray" stroke-width="0.05" fill="none"/>
+</g>
+<!-- Parts Preview -->
+<g transform="scale(-1,-1)" stroke-linecap="round" stroke-linejoin="round" stroke="gray" fill="gray" stroke-width="0.05">
+<use xlink:href="#tmp220703170937" transform="translate(153.81,73.25),scale(-1,1),rotate(0)"/>
+<use xlink:href="#DRL" class="DRL"/>
+<g transform="translate(153.81,73.25),scale(-1,-1),rotate(0)" stroke="none" fill="white"><rect x="-0.975" y="-0.5" fill="gray" width="1.95" height="1" /><text font-size="1" textLength="1.95" x="0" y="0.3" text-anchor="middle">CN1</text></g>
+</g>
+</svg>

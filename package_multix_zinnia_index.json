@@ -1,0 +1,210 @@
+{
+  "packages": [
+    {
+      "name": "MultiX-Zinnia",
+      "maintainer": "@askn https://twitter.com/askn37",
+      "websiteURL": "https://github.com/askn37/Multix-Zinnia/",
+      "email": "askn37@users.noreply.github.com",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "MultiX Zinnia Product SDK [modernAVR]",
+          "architecture": "modernAVR",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.1.zip",
+          "archiveFileName": "Multix-Zinnia-modernAVR-0.0.1.zip",
+          "checksum": "SHA-256:1d4593a823dd49cc9e32baedcaffb9f980ae8028f809c41c3fbce94c84624f6e",
+          "size": "523535",
+          "boards": [
+            {
+              "name": "AVR DA Series"
+            },
+            {
+              "name": "AVR DB Series"
+            },
+            {
+              "name": "AVR DD Series"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc",
+              "packager": "MultiX-Zinnia",
+              "version": "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name": "avrdude",
+              "packager": "MultiX-Zinnia",
+              "version": "7.0.0-arduino2"
+            },
+            {
+              "name": "arduinoOTA",
+              "packager": "arduino",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MultiX Zinnia Product SDK [megaAVR]",
+          "architecture": "megaAVR",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.1.zip",
+          "archiveFileName": "Multix-Zinnia-megaAVR-0.0.1.zip",
+          "checksum": "SHA-256:bf17f552eafafad74444673f15dca58ae44ff4d03fda88673f725d780f2bbbe9",
+          "size": "543236",
+          "boards": [
+            {
+              "name": "megaAVR-0 Series"
+            },
+            {
+              "name": "tinyAVR-0 Series"
+            },
+            {
+              "name": "tinyAVR-1 Series"
+            },
+            {
+              "name": "tinyAVR-2 Series"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc",
+              "packager": "MultiX-Zinnia",
+              "version": "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name": "avrdude",
+              "packager": "MultiX-Zinnia",
+              "version": "7.0.0-arduino2"
+            },
+            {
+              "name": "arduinoOTA",
+              "packager": "arduino",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MultiX Zinnia Product SDK [reduceAVR]",
+          "architecture": "reduceAVR",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.1.zip",
+          "archiveFileName": "Multix-Zinnia-reduceAVR-0.0.1.zip",
+          "checksum": "SHA-256:434ecfb40dbd6c4569e7140c3ada91950311c1f7660e16ccce54c123a5bee15f",
+          "size": "60636",
+          "boards": [
+            {
+              "name": "ATtiny4"
+            },
+            {
+              "name": "ATtiny5"
+            },
+            {
+              "name": "ATtiny9"
+            },
+            {
+              "name": "ATtiny10"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc",
+              "packager": "MultiX-Zinnia",
+              "version": "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name": "avrdude",
+              "packager": "MultiX-Zinnia",
+              "version": "7.0.0-arduino2"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-avr8-gnu-toolchain",
+          "systems": [
+            {
+              "host": "x86_64-apple-darwin12",
+              "url": "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-darwin_x86_64.tar.gz",
+              "archiveFileName": "7.3.0-avr8-gnu-toolchain-darwin_x86_64.tar.gz",
+              "checksum": "SHA-256:17e72b91b7dba53332e81f9a41b1bd4e8555738d86e8a82fb818c3ce7b86b5a7",
+              "size": "57671655",
+              "version": "0.0.1"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-windows_x86_64.tar.gz",
+              "archiveFileName": "7.3.0-avr8-gnu-toolchain-windows_x86_64.tar.gz",
+              "checksum": "SHA-256:82dccb37731df0bf107333b785a663deb7f180b9a633fd050755386f3dae8b9f",
+              "size": "52229328",
+              "version": "0.0.1"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-linux_x86_64.tar.gz",
+              "archiveFileName": "7.3.0-avr8-gnu-toolchain-linux_x86_64.tar.gz",
+              "checksum": "SHA-256:1622981d016ba92856f59f34e0fe5728bf9161bc8258992b693cb0369cdf2103",
+              "size": "51771366",
+              "version": "0.0.1"
+            }
+          ]
+        },
+        {
+          "name": "avrdude",
+          "version": "7.0.0-arduino2",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_Linux_ARMv6.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:4edcf5117fa307134065cf6dd68d696fe01533ebf650b3a4862161f3a5d229af",
+              "size": "1006602"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_Linux_ARM64.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:fe49b55d44309069e5558bf0ad50599cff44e7b3e3da47844d82d9e6235c7a90",
+              "size": "1081300"
+            },
+            {
+              "host": "x86_64-apple-darwin12",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_macOS_64bit.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:ff0b5274182ffacbdea72cab24cb74e8f4b81bc654a4539bbcaa5445825b5b6d",
+              "size": "617568"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_Linux_64bit.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:03f29bae3b53ac1a0e469c1e79f1696a572d7be632838484526674501de0248e",
+              "size": "989218"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_Linux_32bit.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:97ed291b15dc421124c279ab9bf25d8a30e82d495ef2b4c41febb7f2d8f59c01",
+              "size": "1002537"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.0-arduino.2_Windows_32bit.tar.gz",
+              "archiveFileName": "avrdude_7.0-arduino.2_Windows_32bit.tar.gz",
+              "checksum": "SHA-256:a631be22d5063d83c48819bf16621d57f22eb764663d957e8280cd7a5de308bc",
+              "size": "913036"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
