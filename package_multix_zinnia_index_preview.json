@@ -6,7 +6,7 @@
       "websiteURL": "http://askn37.github.io/",
       "email": "askn37@users.noreply.github.com",
       "help": {
-        "online": ""
+        "online": "https://github.com/askn37/askn37.github.io/wiki/InformationSDK"
       },
       "platforms": [
         {
@@ -246,8 +246,8 @@
           "category": "Contributed",
           "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.3.zip",
           "archiveFileName": "Multix-Zinnia-modernAVR-0.0.3.zip",
-          "checksum": "SHA-256:ad4d5f29971025665da6fe438693327acbf68a8e91ad7e9bfeb66042786eb77c",
-          "size": "511438",
+          "checksum": "SHA-256:b45c25cd166eff33d1209302283178fce7bbbc1a5e7886167e0af70695f045f9",
+          "size": "511717",
           "boards": [
             {
               "name": "AVR DA Series"
@@ -284,8 +284,8 @@
           "category": "Contributed",
           "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.3.zip",
           "archiveFileName": "Multix-Zinnia-megaAVR-0.0.3.zip",
-          "checksum": "SHA-256:6df4f3b78f9bc35ca22e85fcdd047044fa130cf32ec6b21121f841edfdc3112c",
-          "size": "531346",
+          "checksum": "SHA-256:9ddbfb5fe0b0a78d3190df753c24580b9d09cc68b5a77c649841b803366df28b",
+          "size": "531623",
           "boards": [
             {
               "name": "megaAVR-0 Series"
