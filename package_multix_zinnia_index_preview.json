@@ -108,9 +108,9 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:9ddbfb5fe0b0a78d3190df753c24580b9d09cc68b5a77c649841b803366df28b",
+               "checksum" : "SHA-256:e82ed7599219de77e41829e0272e5107ccb7898722ffaa0d7f2692d3ac908622",
                "name" : "MultiX Zinnia Product SDK [megaAVR]",
-               "size" : "531623",
+               "size" : "531637",
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -222,9 +222,9 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:b45c25cd166eff33d1209302283178fce7bbbc1a5e7886167e0af70695f045f9",
+               "checksum" : "SHA-256:5554114a51e90491ce9f6ede90758d7d374adb374f07c6acdc4bd56ae075021a",
                "name" : "MultiX Zinnia Product SDK [modernAVR]",
-               "size" : "511717",
+               "size" : "511731",
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -315,6 +315,42 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.2.zip",
+               "version" : "0.0.3"
+            },
+            {
+               "architecture" : "reduceAVR",
+               "archiveFileName" : "Multix-Zinnia-reduceAVR-0.0.3.zip",
+               "boards" : [
+                  {
+                     "name" : "ATtiny4"
+                  },
+                  {
+                     "name" : "ATtiny5"
+                  },
+                  {
+                     "name" : "ATtiny9"
+                  },
+                  {
+                     "name" : "ATtiny10"
+                  }
+               ],
+               "category" : "Contributed",
+               "checksum" : "SHA-256:7cba63d55948392e51ffa5b420a9ff00aa8cbdef3889623ee9be5d9b571aa0c6",
+               "name" : "MultiX Zinnia Product SDK [reduceAVR]",
+               "size" : "62303",
+               "toolsDependencies" : [
+                  {
+                     "name" : "avr-gcc",
+                     "packager" : "MultiX-Zinnia",
+                     "version" : "7.3.0-avr8-gnu-toolchain"
+                  },
+                  {
+                     "name" : "avrdude",
+                     "packager" : "MultiX-Zinnia",
+                     "version" : "7.0.0-arduino2"
+                  }
+               ],
+               "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.3.zip",
                "version" : "0.0.3"
             }
          ],
