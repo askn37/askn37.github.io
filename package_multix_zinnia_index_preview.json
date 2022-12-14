@@ -27,6 +27,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:0c55db46d0a9e6f9584378f2dc7f884c2204d3544cf9802428f3a69b59aa1d75",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [megaAVR]",
                "size" : "551269",
                "toolsDependencies" : [
@@ -47,7 +48,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.1.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.1"
             },
             {
                "architecture" : "megaAVR",
@@ -68,6 +69,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:ef7e28acac54ae345bddc831236dbb3645cf763d72f324bfbcaffed92490f50f",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [megaAVR]",
                "size" : "550968",
                "toolsDependencies" : [
@@ -88,7 +90,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.2.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.2"
             },
             {
                "architecture" : "megaAVR",
@@ -109,6 +111,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:e82ed7599219de77e41829e0272e5107ccb7898722ffaa0d7f2692d3ac908622",
+               "deprecated" : false,
                "name" : "MultiX Zinnia Product SDK [megaAVR]",
                "size" : "531637",
                "toolsDependencies" : [
@@ -147,6 +150,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:c04c0100913fa0e97e6ecb4e47d69f449a8f5858bfe1a0ac26ca0df725655fbb",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [modernAVR]",
                "size" : "531380",
                "toolsDependencies" : [
@@ -167,7 +171,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.1.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.1"
             },
             {
                "architecture" : "modernAVR",
@@ -185,6 +189,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:37c43c247713d4a5a8031356c5d8a579c4916bb6b6f6b30f3f3bc75e42b22536",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [modernAVR]",
                "size" : "531080",
                "toolsDependencies" : [
@@ -205,7 +210,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.2.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.2"
             },
             {
                "architecture" : "modernAVR",
@@ -223,6 +228,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:5554114a51e90491ce9f6ede90758d7d374adb374f07c6acdc4bd56ae075021a",
+               "deprecated" : false,
                "name" : "MultiX Zinnia Product SDK [modernAVR]",
                "size" : "511731",
                "toolsDependencies" : [
@@ -264,6 +270,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:c76179d746d6d953e6731549b2d17e82f6b9e1a2a9afb475ded16cd03e468828",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [reduceAVR]",
                "size" : "62303",
                "toolsDependencies" : [
@@ -279,7 +286,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.1.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.1"
             },
             {
                "architecture" : "reduceAVR",
@@ -300,6 +307,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:0e465b5f0efe9e53adccbf2b4b1e947ec723eca20330d2e2ea601ed0c76cdf04",
+               "deprecated" : true,
                "name" : "MultiX Zinnia Product SDK [reduceAVR]",
                "size" : "62303",
                "toolsDependencies" : [
@@ -315,7 +323,7 @@
                   }
                ],
                "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.2.zip",
-               "version" : "0.0.3"
+               "version" : "0.0.2"
             },
             {
                "architecture" : "reduceAVR",
@@ -336,6 +344,7 @@
                ],
                "category" : "Contributed",
                "checksum" : "SHA-256:7cba63d55948392e51ffa5b420a9ff00aa8cbdef3889623ee9be5d9b571aa0c6",
+               "deprecated" : false,
                "name" : "MultiX Zinnia Product SDK [reduceAVR]",
                "size" : "62303",
                "toolsDependencies" : [
