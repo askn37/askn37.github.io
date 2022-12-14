@@ -14,10 +14,10 @@
           "architecture": "modernAVR",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "http://localhost/~askn/Multix-Zinnia-modernAVR-0.0.1.zip",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-modernAVR-0.0.1.zip",
-          "checksum": "SHA-256:d0ff49f188a61465048fdd618df7c612d99524628b4b85a2aae1e7839d9dadc3",
-          "size": "74451",
+          "checksum": "SHA-256:c04c0100913fa0e97e6ecb4e47d69f449a8f5858bfe1a0ac26ca0df725655fbb",
+          "size": "531380",
           "boards": [
             {
               "name": "AVR DA Series"
@@ -52,10 +52,10 @@
           "architecture": "megaAVR",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "http://localhost/~askn/Multix-Zinnia-megaAVR-0.0.1.zip",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-megaAVR-0.0.1.zip",
-          "checksum": "SHA-256:d0ff49f188a61465048fdd618df7c612d99524628b4b85a2aae1e7839d9dadc3",
-          "size": "74451",
+          "checksum": "SHA-256:0c55db46d0a9e6f9584378f2dc7f884c2204d3544cf9802428f3a69b59aa1d75",
+          "size": "551269",
           "boards": [
             {
               "name": "megaAVR-0 Series"
@@ -93,10 +93,10 @@
           "architecture": "reduceAVR",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "http://localhost/~askn/Multix-Zinnia-reduceAVR-0.0.1.zip",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.1.zip",
           "archiveFileName": "Multix-Zinnia-reduceAVR-0.0.1.zip",
-          "checksum": "SHA-256:d0ff49f188a61465048fdd618df7c612d99524628b4b85a2aae1e7839d9dadc3",
-          "size": "74451",
+          "checksum": "SHA-256:c76179d746d6d953e6731549b2d17e82f6b9e1a2a9afb475ded16cd03e468828",
+          "size": "62303",
           "boards": [
             {
               "name": "ATtiny4"
