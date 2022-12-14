@@ -127,12 +127,12 @@
         {
           "name": "MultiX Zinnia Product SDK [modernAVR]",
           "architecture": "modernAVR",
-          "version": "0.0.2",
+          "version": "0.0.3",
           "category": "Contributed",
-          "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.2.zip",
-          "archiveFileName": "Multix-Zinnia-modernAVR-0.0.2.zip",
-          "checksum": "SHA-256:37c43c247713d4a5a8031356c5d8a579c4916bb6b6f6b30f3f3bc75e42b22536",
-          "size": "531080",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.3.zip",
+          "archiveFileName": "Multix-Zinnia-modernAVR-0.0.3.zip",
+          "checksum": "SHA-256:ad4d5f29971025665da6fe438693327acbf68a8e91ad7e9bfeb66042786eb77c",
+          "size": "511438",
           "boards": [
             {
               "name": "AVR DA Series"
@@ -165,12 +165,12 @@
         {
           "name": "MultiX Zinnia Product SDK [megaAVR]",
           "architecture": "megaAVR",
-          "version": "0.0.2",
+          "version": "0.0.3",
           "category": "Contributed",
-          "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.2.zip",
-          "archiveFileName": "Multix-Zinnia-megaAVR-0.0.2.zip",
-          "checksum": "SHA-256:ef7e28acac54ae345bddc831236dbb3645cf763d72f324bfbcaffed92490f50f",
-          "size": "550968",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.3.zip",
+          "archiveFileName": "Multix-Zinnia-megaAVR-0.0.3.zip",
+          "checksum": "SHA-256:6df4f3b78f9bc35ca22e85fcdd047044fa130cf32ec6b21121f841edfdc3112c",
+          "size": "531346",
           "boards": [
             {
               "name": "megaAVR-0 Series"
@@ -206,10 +206,10 @@
         {
           "name": "MultiX Zinnia Product SDK [reduceAVR]",
           "architecture": "reduceAVR",
-          "version": "0.0.2",
+          "version": "0.0.3",
           "category": "Contributed",
-          "url": "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.2.zip",
-          "archiveFileName": "Multix-Zinnia-reduceAVR-0.0.2.zip",
+          "url": "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.0.3.zip",
+          "archiveFileName": "Multix-Zinnia-reduceAVR-0.0.3.zip",
           "checksum": "SHA-256:0e465b5f0efe9e53adccbf2b4b1e947ec723eca20330d2e2ea601ed0c76cdf04",
           "size": "62303",
           "boards": [
@@ -251,7 +251,7 @@
               "archiveFileName": "7.3.0-avr8-gnu-toolchain-darwin_x86_64.tar.gz",
               "checksum": "SHA-256:17e72b91b7dba53332e81f9a41b1bd4e8555738d86e8a82fb818c3ce7b86b5a7",
               "size": "57671655",
-              "version": "0.0.2"
+              "version": "0.0.3"
             },
             {
               "host": "i686-mingw32",
@@ -259,7 +259,7 @@
               "archiveFileName": "7.3.0-avr8-gnu-toolchain-windows_x86_64.tar.gz",
               "checksum": "SHA-256:82dccb37731df0bf107333b785a663deb7f180b9a633fd050755386f3dae8b9f",
               "size": "52229328",
-              "version": "0.0.2"
+              "version": "0.0.3"
             },
             {
               "host": "x86_64-linux-gnu",
@@ -267,7 +267,7 @@
               "archiveFileName": "7.3.0-avr8-gnu-toolchain-linux_x86_64.tar.gz",
               "checksum": "SHA-256:1622981d016ba92856f59f34e0fe5728bf9161bc8258992b693cb0369cdf2103",
               "size": "51771366",
-              "version": "0.0.2"
+              "version": "0.0.3"
             }
           ]
         },
