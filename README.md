@@ -23,7 +23,7 @@
 - Additional On-board calendar IC.
 - Arduino compatible external pin layout.
 - x1 Grove/M5 compatible I2C connector.
-- For more information (ja-JP)
+- [For more information](product/Duino) (ja-JP)
 
 ## Product "UPDI4AVR" : UPDI Programer Writer with High-Voltage Activation
 
