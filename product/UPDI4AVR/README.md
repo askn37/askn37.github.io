@@ -77,7 +77,7 @@
   - `濃緑` 裏レジスト
   - `明紫` 裏シルク
 
-[その他図面等はこのフォルダ](https://github.com/askn37/askn37.github.io/tree/main/product/Duino/2221_Zinnia-UPDI4AVRF-MZU2216B)
+[その他図面等はこのフォルダ](https://github.com/askn37/askn37.github.io/tree/main/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B)
 
 ### ファームウェア / アップデート
 
