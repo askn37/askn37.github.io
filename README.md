@@ -1,6 +1,6 @@
 # Multix Zinnia Product : All Open-Source / Open-Hardware
 
-![Zinnia Logo](Zinnia_Logo.png)
+![Zinnia Logo](Zinnia_Logo.svg)
 
 ## Multix Zinnia Product SDK [*AVR] for Arduino IDE
 
