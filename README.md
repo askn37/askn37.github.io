@@ -32,7 +32,7 @@
 - UPDI programmer writer with HV activation. (66x32mm)
 - It can also be reset without destroying the functionality of the target MCU's UPDI pin.
 - Compatible with all Microchip AVR DA/DB/DD, Atmel tinyAVR-0/1/2 and megaAVR-0 series.
-- For more information (ja-JP)
+- [For more information](product/UPDI4AVR) (ja-JP)
 
 ## Product "TPI4AVR" : TPI Programer Writer with High-Voltage Activation
 
@@ -41,7 +41,7 @@
 - TPI programmer writer with HV activation. (66x32mm)
 - Additional SOT-23 conversion sockets can be added and signals can be extracted.
 - Compatible with Atmel ATTiny4/5/9/10, ATtiny20/40 and ATtiny102/104 series.
-- For more information (ja-JP)
+- [For more information](product/TPI4AVR) (ja-JP)
 
 ## Product "UPDI Reset Plus" Snap-On Circuit
 
@@ -49,7 +49,7 @@
 
 - Additional circuitry that allows the UPDI pin to be a RESET button. (16x12mm)
 - It's convenient because you don't have to lose the functionality of the UPDI pin.
-- For more information (ja-JP)
+- [For more information](product/URP) (ja-JP)
 
 ## Copyright and Contact
 
