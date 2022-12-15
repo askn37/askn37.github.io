@@ -44,22 +44,24 @@
   - アラーム割込/長周期タイマー割込を設定して、深い休止状態からの定期/任意間欠駆動が可能
 - 低電圧検出IC付
   - 電池残量低下を割込通知
-- 裏面追加 I2Cコンタクト
-  - スマートホンの NTAG カードリーダーと通信可能な IC基板を追加可能
 - GPIO追加スルーホール列
-  - Arduinoソケットとは別に、秋月C型/D型基板を増設可能
+  - Arduinoソケットとは別に、秋月C型/D型ユニバーサル基板を増設可能
   - スプリングジャンパーワイヤ、MAC-8 コンスルー使用可能
+- 裏面増設 I2Cコンタクト
+  - スマートホンの NTAG カードリーダーで読取可能な パッシブICタグ基板を増設可能（開発中）
+  - 最大通信距離5cm未満、（技適範囲外）
+  - ICタグ内容は I2C経由で書換可能
 
 ## 設計情報
 
 ### 部品実装イメージ
 
-[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg)
-[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg)
+[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg" />](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg)
+[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg" />](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg)
 
 ### レイヤー構成
 
-[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_layers.svg"/>](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_layers.svg)
+[<img src="2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_layers.svg" />](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_layers.svg)
 
 > 色付レイヤーをクリックするとそのレイヤーが非表示になる。黒地をクリックすると初期状態に戻る。
 
@@ -72,4 +74,15 @@
   - `濃緑` 裏レジスト
   - `明紫` 裏シルク
 
-[その他図面等はこのフォルダ](https://github.com/askn37/askn37.github.io/tree/main/product/Duino/)
+[その他図面等はこのフォルダ](https://github.com/askn37/askn37.github.io/tree/main/product/Duino/2220_Zinnia-Duino-MZD2211B)
+
+## Copyright and Contact
+
+Twitter: [@askn37](https://twitter.com/askn37) \
+GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
+Product: [https://askn37.github.io/](https://askn37.github.io/)
+
+Copyright (c) askn (K.Sato) multix.jp \
+Released under the MIT license \
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
+[https://www.oshwa.org/](https://www.oshwa.org/)
