@@ -166,7 +166,6 @@
               18.5481,-25.73771 19.5998,-37.08006 -9.4485,3.07282 -18.5,7.22299 -26.7175,12.79617 -11.142,7.55702
               -22.5327,20.46627 -20.1232,34.28009 z" />
         </g>
-        <!-- <path id="path60" style="fill:#ff0000;fill-opacity:0.5;fill-rule:nonzero;stroke:none" d="m 888.874,476.5229 h 394.5664 V 606.0034 H 888.874 Z" /> -->
         <g transform="translate(530.7899,461.394)" id="g62">
           <text id="text66" style="font-variant:normal;font-weight:normal;font-size:310px;font-family:ArialRoundedMTBold;-inkscape-font-specification:ArialRoundedMTBold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="scale(1,-1)">
             <tspan id="tspan64" y="0" x="0 178.56 240.87 406.41 571.95001 634.26001">Zinnia</tspan>
@@ -239,6 +238,7 @@
               11.9832,-8.1991 15.2124,-13.8501 3.7337,-6.2565 5.6005,-16.5495 5.6005,-30.8789 z" />
         </g>
         <path id="path602" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1040,590 -110,35 v -125 h 85 Z" />
+        <path id="path603" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1290,550 v 70 h -70 v -70 Z" />
         <g transform="translate(530.7899,461.394)" id="g72">
           <text id="text76" style="font-variant:normal;font-weight:normal;font-size:310px;font-family:ArialRoundedMTBold;-inkscape-font-specification:ArialRoundedMTBold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="scale(1,-1)">
             <tspan id="tspan74" y="0" x="0 178.56 240.87 406.41 571.95001 634.26001">Zinnia</tspan>
