@@ -64,7 +64,7 @@
 
 ### レイヤー構成
 
-[<img src="2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg" />](https://askn37.github.io/product/Duino/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg)
+[<img src="2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg)
 
 > 色付レイヤーをクリックするとそのレイヤーが非表示になる。黒地をクリックすると初期状態に戻る。
 
