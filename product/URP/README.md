@@ -76,7 +76,7 @@
 - [Multix Zinnia "TPI4AVR"](../TPI4AVR) -- TPIプログラマライター
   - ハーフピッチSIP/6P と __コンスルーコネクタで直結して書換__
 - [Multix Zinnia Product SDK [reduceAVR] for Arduino IDE](https://github.com/askn37/multix-zinnia-sdk-reduceAVR)
-  - サンプルライブラリ/スケッチ として同梱済
+  - [サンプルライブラリ/スケッチ として同梱](https://github.com/askn37/multix-zinnia-sdk-reduceAVR/tree/main/libraries/reduceAVR/examples/Miscellaneous/UPDI_Reset_Plus)
 
 ## 開発の経緯
 
@@ -103,7 +103,7 @@
   - プロプライエタリ環境と縁を切るなら、オープンソースハードウェアのプログラマライターを作らにゃあかん。
 - __UPDI4AVR の設計を流用して TPI4AVRを作る__
   - TPI は PDI の制御線を1本減らしたもの。。。と思いきやさにあらず。
-  - 実は UPDI とは仕様がよく似ている。USART 視点では非同期式か、同期式かの違いでしかない。
+  - 実は UPDI と TPI は電気的仕様がよく似ている。USART 視点では非同期式か、同期式かの違いでしかない。
   - つまり __単線同期式 RS485 から差動回路部分を取っ払った__ それそのもの。
   - なのでそれに対応している tinyAVR の USART を使うと IOレジスタ設定するだけで簡単に通信できる。
     - 旧世代AVRはそういう用途に対応していないから、過去みんな苦労して実装してたわけですな。
