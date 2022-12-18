@@ -10,7 +10,7 @@ Configured to aid development in the Arduino IDE.
 C/C++/Assembler programs written in AVR-GCC/AVR-LIBC
 It provides a workflow up to uploading to the target MCU using avrdude.
 
-__WARNING: Arduino compatible API is not supported.__
+__WARNING: Arduino compatible API is not provided.__
 
 - Please add the following link to your Arduino IDE preferences.\
   [`https://askn37.github.io/package_multix_zinnia_index.json`](https://askn37.github.io/package_multix_zinnia_index.json)
