@@ -237,7 +237,7 @@
           ],
           "category" : "Contributed",
           "checksum" : "SHA-256:3d7f7f992f5fb0e3b79e8e1ba20478ef7be156f16e5a66c0aae9bca66b39e525",
-          "deprecated" : false,
+          "deprecated" : true,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
           "size" : "542490",
           "toolsDependencies" : [
@@ -259,6 +259,48 @@
           ],
           "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.6.zip",
           "version" : "0.0.6"
+        },
+        {
+          "architecture" : "megaAVR",
+          "archiveFileName" : "Multix-Zinnia-megaAVR-0.0.7.zip",
+          "boards" : [
+            {
+              "name" : "megaAVR-0 Series"
+            },
+            {
+              "name" : "tinyAVR-0 Series"
+            },
+            {
+              "name" : "tinyAVR-1 Series"
+            },
+            {
+              "name" : "tinyAVR-2 Series"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:672ea75422bc8945ac394f432fbf5c1dd2a987881f7a24a0c88504d21ffa32c1",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [megaAVR]",
+          "size" : "557769",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.0.0-arduino2"
+            },
+            {
+              "name" : "arduinoOTA",
+              "packager" : "arduino",
+              "version" : "1.4.0"
+            }
+          ],
+          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.0.7.zip",
+          "version" : "0.0.7"
         },
         {
           "architecture" : "modernAVR",
@@ -471,7 +513,7 @@
           ],
           "category" : "Contributed",
           "checksum" : "SHA-256:d0898e027941807f1db8cc93883aeacdf0ae15353d269fba49a9293786345b39",
-          "deprecated" : false,
+          "deprecated" : true,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
           "size" : "518256",
           "toolsDependencies" : [
@@ -493,6 +535,45 @@
           ],
           "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.6.zip",
           "version" : "0.0.6"
+        },
+        {
+          "architecture" : "modernAVR",
+          "archiveFileName" : "Multix-Zinnia-modernAVR-0.0.7.zip",
+          "boards" : [
+            {
+              "name" : "AVR DA Series"
+            },
+            {
+              "name" : "AVR DB Series"
+            },
+            {
+              "name" : "AVR DD Series"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:9996384fc4a6cef5c467b0433e66ab896fdb49f653ee3d5ade37f55a2187f955",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [modernAVR]",
+          "size" : "537867",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.0.0-arduino2"
+            },
+            {
+              "name" : "arduinoOTA",
+              "packager" : "arduino",
+              "version" : "1.4.0"
+            }
+          ],
+          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.0.7.zip",
+          "version" : "0.0.7"
         },
         {
           "architecture" : "reduceAVR",
