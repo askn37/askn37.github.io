@@ -70,6 +70,8 @@
 |HTCR|3|4|HRCT
 |RST|5|6|GND
 
+![MIL/6P-UPDI4AVR](https://askn37.github.io/svg/AVR-ICSP-M6P-UPDI4AVR.drawio.svg)
+
 #### CN2 : ICSP ターゲット用 SIP/6P 単列ソケット
 
 #### TP1 : ICSP ターゲット用 ハーフピッチSIP/6P スルーホール端子
