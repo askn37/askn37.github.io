@@ -74,6 +74,10 @@
 
 #### CN2 : ICSP ターゲット用 SIP/6P 単列ソケット
 
+> 523146配列
+
+![SIL/6P-UPDI-523146](https://askn37.github.io/svg/AVR-ICSP-S6P-UPDI-523146.drawio.svg)
+
 #### TP1 : ICSP ターゲット用 ハーフピッチSIP/6P スルーホール端子
 
 > 523146配列
@@ -90,8 +94,6 @@
 #### TP2 : ファームウェアアップデート用 ハーフピッチSIP/6P スルーホール端子
 
 > 523146配列
-
-![SIL/6P-UPDI-523146](https://askn37.github.io/svg/AVR-ICSP-S6P-UPDI-523146.drawio.svg)
 
 |▼|信号名|
 |-|-|
