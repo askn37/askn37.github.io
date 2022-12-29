@@ -12318,5 +12318,5 @@ text{font-weight:bold;font-family:"Consolas","Courier New",monospace;}
 <g transform="translate(-80,650)"><text font-size="36" textLength="64">$60</text></g>
 <g transform="translate(-80,794)"><text font-size="36" textLength="64">$70</text></g>
 </g>
-<g transform="translate(540,40)" stroke="none" fill="#999999"><text font-size="48">ModernDOS_8x16</text></g>
+<g transform="translate(540,40)" stroke="none" fill="#999999"><text font-size="48">modernDOS_8x16</text></g>
 </svg>
