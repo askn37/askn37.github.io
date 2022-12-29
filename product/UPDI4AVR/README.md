@@ -91,6 +91,8 @@
 
 > 523146配列
 
+![SIL/6P-UPDI-523146](https://askn37.github.io/svg/AVR-ICSP-S6P-UPDI-523146.drawio.svg)
+
 |▼|信号名|
 |-|-|
 |1|5:RST
