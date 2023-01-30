@@ -7515,7 +7515,7 @@ text{font-weight:bold;font-family:"Consolas","Courier New",monospace;}
 <rect transform="translate(824,512)" fill="none" x="0" y="0" width="7.5" height="7.5"/>
 <rect transform="translate(832,512)" fill="none" x="0" y="0" width="7.5" height="7.5"/>
 <rect transform="translate(840,512)" fill="none" x="0" y="0" width="7.5" height="7.5"/>
-<rect transform="translate(848,512)" fill="none" x="0" y="0" width="7.5" height="7.5"/>
+<rect transform="translate(848,512)" x="0" y="0" width="7.5" height="7.5"/>
 <rect transform="translate(856,512)" fill="none" x="0" y="0" width="7.5" height="7.5"/>
 <rect transform="translate(800,520)" x="0" y="0" width="7.5" height="7.5"/>
 <rect transform="translate(808,520)" x="0" y="0" width="7.5" height="7.5"/>
