@@ -13,14 +13,14 @@
           "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.0.zip",
           "boards" : [
             {
-              "name" : "ATtiny1626"
+              "name" : "Hardware model: MZU2306B(ATtiny1626)  Firmware: 7.53"
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:ab031d6619c8233a88fab8269e4310ca6745a99dda557f70656c12cf029a3edd",
+          "checksum" : "SHA-256:496d85e8fbfc66f16d7aa8e807483105b971426d1928d77813e04945efbf9238",
           "deprecated" : false,
-          "name" : "MultiX UPDI4AVR Programmer firmware",
-          "size" : "79195",
+          "name" : "MultiX Zinnia UPDI4AVR Programmer",
+          "size" : "193190",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
