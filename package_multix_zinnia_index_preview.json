@@ -9,6 +9,34 @@
       "name" : "MultiX-Zinnia",
       "platforms" : [
         {
+          "architecture" : "UPDI4AVR",
+          "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.0.zip",
+          "boards" : [
+            {
+              "name" : "ATtiny1626"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:d3567422a82a1b07a23b0361eb6a154a042ab3c26c51410ff29f824cf0f4124f",
+          "deprecated" : false,
+          "name" : "MultiX UPDI4AVR Programmer firmware",
+          "size" : "79202",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.0.0-arduino2"
+            }
+          ],
+          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.0.zip",
+          "version" : "0.2.0"
+        },
+        {
           "architecture" : "megaAVR",
           "archiveFileName" : "Multix-Zinnia-megaAVR-0.1.0.zip",
           "boards" : [
@@ -34,7 +62,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -71,7 +99,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -108,7 +136,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -145,7 +173,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -182,7 +210,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -211,15 +239,15 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:358988697a7e948c4d832465b698ea52ab4655e2e13be53906842bfb4bde063f",
+          "checksum" : "SHA-256:8c933015e98b3ed16cdef79d8362d8d62b850ac7c400c51718473a857a1b52d4",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "631155",
+          "size" : "631147",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -256,7 +284,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -293,7 +321,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -330,7 +358,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -367,7 +395,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -404,7 +432,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -433,15 +461,15 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:f028d313202dec43dd0d87b23ecc84f943d74e96035c6df31970748aad797e9d",
+          "checksum" : "SHA-256:9c7fafe62736ce81bea8e5632951ff35d6208b0bd8d827c267829efc2aebbad4",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "656882",
+          "size" : "659865",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -478,7 +506,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -515,7 +543,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -552,7 +580,7 @@
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -581,15 +609,15 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:7e0ea7bd6c08c09d30046d91f36d466d1a47e65cbb9abc9661846bc7aac1765b",
+          "checksum" : "SHA-256:fc96d2b373a748fa3d24a4f9d7b6c9def8a19004eac288e406d2a064a760d9f8",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "74320",
+          "size" : "74388",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.3.0-avr8-gnu-toolchain-230322"
+              "version" : "7.3.0-avr8-gnu-toolchain"
             },
             {
               "name" : "avrdude",
@@ -606,28 +634,28 @@
           "name" : "avr-gcc",
           "systems" : [
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-221216-darwin_x86_64.tar.gz",
-              "checksum" : "SHA-256:506bfe278e13155839ea4f5c37529733fc7463844e61f64e67ad73b6cf566250",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz",
+              "checksum" : "SHA-256:bad14e6d1dd4c73ff37e4edf23d0eac2a25a9527b6039474fa2fa2559506f2d5",
               "host" : "x86_64-apple-darwin12",
-              "size" : "57681794",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-221216-darwin_x86_64.tar.gz"
+              "size" : "57678031",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-221216-windows_x86_64.tar.gz",
-              "checksum" : "SHA-256:6ba797fbeff08f73eea37a250ff55dbade4f20ab0607b63c1ba067c111603881",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz",
+              "checksum" : "SHA-256:3292917dc7273602b6d3fc0d55b39803db8f396cb47d136540d41de485c95905",
               "host" : "i686-mingw32",
-              "size" : "52247049",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-221216-windows_x86_64.tar.gz"
+              "size" : "52246234",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-221216-linux_x86_64.tar.gz",
-              "checksum" : "SHA-256:1bf38470a653a0825cfc44c798ee58a58e1242f5592e33e9aca9a2d73f2358f5",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz",
+              "checksum" : "SHA-256:d78d7e22db990bafacdfbcebcc626731e7a74b5d35b9240449d785346a4f1983",
               "host" : "x86_64-linux-gnu",
-              "size" : "51792365",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-221216-linux_x86_64.tar.gz"
+              "size" : "51794208",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz"
             }
           ],
-          "version" : "7.3.0-avr8-gnu-toolchain-221216"
+          "version" : "7.3.0-avr8-gnu-toolchain"
         },
         {
           "name" : "avrdude",
@@ -676,33 +704,6 @@
             }
           ],
           "version" : "7.0.0-arduino2"
-        },
-        {
-          "name" : "avr-gcc",
-          "systems" : [
-            {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz",
-              "checksum" : "SHA-256:bad14e6d1dd4c73ff37e4edf23d0eac2a25a9527b6039474fa2fa2559506f2d5",
-              "host" : "x86_64-apple-darwin12",
-              "size" : "57678031",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz"
-            },
-            {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz",
-              "checksum" : "SHA-256:3292917dc7273602b6d3fc0d55b39803db8f396cb47d136540d41de485c95905",
-              "host" : "i686-mingw32",
-              "size" : "52246234",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz"
-            },
-            {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz",
-              "checksum" : "SHA-256:d78d7e22db990bafacdfbcebcc626731e7a74b5d35b9240449d785346a4f1983",
-              "host" : "x86_64-linux-gnu",
-              "size" : "51794208",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz"
-            }
-          ],
-          "version" : "7.3.0-avr8-gnu-toolchain-230322"
         }
       ],
       "websiteURL" : "http://askn37.github.io/"
