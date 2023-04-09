@@ -17,10 +17,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:d3567422a82a1b07a23b0361eb6a154a042ab3c26c51410ff29f824cf0f4124f",
+          "checksum" : "SHA-256:ab031d6619c8233a88fab8269e4310ca6745a99dda557f70656c12cf029a3edd",
           "deprecated" : false,
           "name" : "MultiX UPDI4AVR Programmer firmware",
-          "size" : "79202",
+          "size" : "79195",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -239,10 +239,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:8c933015e98b3ed16cdef79d8362d8d62b850ac7c400c51718473a857a1b52d4",
+          "checksum" : "SHA-256:2504f1786fb8efe67af551b4713f8348b8b4e6d8bd2f90deafc72e5d51819c0f",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "631147",
+          "size" : "631139",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -461,10 +461,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:9c7fafe62736ce81bea8e5632951ff35d6208b0bd8d827c267829efc2aebbad4",
+          "checksum" : "SHA-256:9668e7fefb2a96de361588561339bec7cdc4b7e512540602a81e4c8889e429c4",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "659865",
+          "size" : "659857",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -609,10 +609,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:fc96d2b373a748fa3d24a4f9d7b6c9def8a19004eac288e406d2a064a760d9f8",
+          "checksum" : "SHA-256:d9040eff4154b03269a5ff39f66069d3f5ce8e0eabae3ecb407b6ec9351ed35b",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "74388",
+          "size" : "74382",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
