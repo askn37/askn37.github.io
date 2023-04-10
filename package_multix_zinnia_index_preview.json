@@ -13,14 +13,14 @@
           "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.0.zip",
           "boards" : [
             {
-              "name" : "Hardware model: MZU2306B(ATtiny1626)  Firmware: 7.53"
+              "name" : "Hardware model: MZU2306B(ATtiny1626) Firmware: 7.53"
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:496d85e8fbfc66f16d7aa8e807483105b971426d1928d77813e04945efbf9238",
+          "checksum" : "SHA-256:fd75e90ecccf52b8c0c858b2391596cf0c566c297df2a47cb3b048199533c7f8",
           "deprecated" : false,
-          "name" : "MultiX Zinnia UPDI4AVR Programmer",
-          "size" : "193190",
+          "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
+          "size" : "193192",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -50,7 +50,7 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
@@ -87,7 +87,7 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
@@ -124,7 +124,7 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
@@ -161,7 +161,7 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
@@ -198,7 +198,7 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
@@ -235,11 +235,11 @@
               "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
             },
             {
-              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224,  ATtiny426, ATtiny826, ATtiny1626, ATtiny3226,  ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:2504f1786fb8efe67af551b4713f8348b8b4e6d8bd2f90deafc72e5d51819c0f",
+          "checksum" : "SHA-256:1e64bdabe1525d807a68c6356a938e9b1b7fd45f1819a963472d6434e36bd4e5",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
           "size" : "631139",
@@ -461,7 +461,7 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:9668e7fefb2a96de361588561339bec7cdc4b7e512540602a81e4c8889e429c4",
+          "checksum" : "SHA-256:505f7fe4204f0436515538920e042efdcca0cf8cec72921447ded85fef1c9512",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
           "size" : "659857",
