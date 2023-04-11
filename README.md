@@ -1,8 +1,8 @@
-# Multix Zinnia Product : All Open-Source / Open-Hardware
+# MultiX Zinnia Product : All Open-Source / Open-Hardware
 
 ![Zinnia Logo](Zinnia_Logo.png)
 
-## Multix Zinnia Product SDK [*AVR] for Arduino IDE
+## MultiX Zinnia Product SDK [*AVR] for Arduino IDE
 
 This software development kit is primarily for the new generation AVR family.
 (Announced after Microchip brand integration)
