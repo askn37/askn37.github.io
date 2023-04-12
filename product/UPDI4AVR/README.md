@@ -147,7 +147,7 @@
 
 ファームウェアのアップデートは、本体以外に別の UPDIプログラマライターが必要。（設計上の制約）
 
-- [UPDI4AVR(Rev.1)](https://github.com/askn37/UPDI4AVR)
+- [UPDI4AVR Software](https://github.com/askn37/UPDI4AVR-Software)
   - [SpenceKonde / megaTinyCore](https://github.com/SpenceKonde/megaTinyCore) で使用可能。
 - [Multix Zinnia Product SDK [megaAVR] for Arduino IDE](https://github.com/askn37/multix-zinnia-sdk-modernAVR)
   - サンプルライブラリ/スケッチ として同梱。
