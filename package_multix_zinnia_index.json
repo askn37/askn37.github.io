@@ -662,25 +662,25 @@
           "name" : "avr-gcc",
           "systems" : [
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz",
-              "checksum" : "SHA-256:0143a6a0f25112f5a7fc9876a9d3e86ccaab90bdeea87224fdbfee368ada9744",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-darwin_x86_64.tar.gz",
+              "checksum" : "SHA-256:b0eb67bee06d9728d55f64a97d64e42818896be25256043dab48116b2ddb18a7",
               "host" : "x86_64-apple-darwin12",
-              "size" : "57677597",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz"
+              "size" : "58022548",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-darwin_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz",
-              "checksum" : "SHA-256:ff0bcdef4d35e23c5db799bdf6625660214351e89f57b7b952f7f2ed7b98b6ce",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-windows_x86_64.tar.gz",
+              "checksum" : "SHA-256:e44d21e10e505f9432041cc0114289f5af9f9b2735ebdcf18b7b879f27a6c620",
               "host" : "i686-mingw32",
-              "size" : "52245804",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz"
+              "size" : "52584650",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-windows_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz",
-              "checksum" : "SHA-256:52b036f9341eca3b615d861017e807674a91288738e2e2f968b3dedb79eaf375",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-linux_x86_64.tar.gz",
+              "checksum" : "SHA-256:504fc1d069f7947065b2c3cd2d30cca8bacd784ebf655e5f1292ab9a9111862a",
               "host" : "x86_64-linux-gnu",
-              "size" : "51793717",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz"
+              "size" : "52136137",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-linux_x86_64.tar.gz"
             }
           ],
           "version" : "7.3.0-avr8-gnu-toolchain"
