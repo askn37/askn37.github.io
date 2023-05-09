@@ -45,10 +45,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:0ee27961bc0e5288f4556282ac9bb09f8f667f7951e9af801d250f0a8863d5fd",
+          "checksum" : "SHA-256:10ee92a709dd455210826bac9a0e6f0214590eb06c121293725806ab8fb2c6e9",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "144174",
+          "size" : "144173",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -304,10 +304,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:0ef376e8908dc0c09c6786984a05bcb5e623a2a447be0ddc98dbccf261ba8965",
+          "checksum" : "SHA-256:f5641f32a65914960529a02cd0e53f732f8bdc8c16e60fd2089ac866f2e9fc3f",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "633352",
+          "size" : "633591",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -563,10 +563,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:2cb4425f87e47e7bef142d03dd3899c64ce7cc953d734d299d7bea8578675ae5",
+          "checksum" : "SHA-256:a05f97f0e42cba05d988f6523f846cf3f22ae2cfda9af55ee67e954263cfd73b",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "666454",
+          "size" : "666611",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -748,10 +748,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:a04a6fe8605a3632d802781e028979153f6e0c3b9a7a059ed560a3c257b1a97e",
+          "checksum" : "SHA-256:e2e3b8fc58288925cf3700981fb240240d0575f3ff0fb13d1f19230e0184e0cb",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "74390",
+          "size" : "74428",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -773,25 +773,25 @@
           "name" : "avr-gcc",
           "systems" : [
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-darwin_x86_64.tar.gz",
-              "checksum" : "SHA-256:b0eb67bee06d9728d55f64a97d64e42818896be25256043dab48116b2ddb18a7",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz",
+              "checksum" : "SHA-256:0143a6a0f25112f5a7fc9876a9d3e86ccaab90bdeea87224fdbfee368ada9744",
               "host" : "x86_64-apple-darwin12",
-              "size" : "58022548",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-darwin_x86_64.tar.gz"
+              "size" : "57677597",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-darwin_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-windows_x86_64.tar.gz",
-              "checksum" : "SHA-256:e44d21e10e505f9432041cc0114289f5af9f9b2735ebdcf18b7b879f27a6c620",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz",
+              "checksum" : "SHA-256:ff0bcdef4d35e23c5db799bdf6625660214351e89f57b7b952f7f2ed7b98b6ce",
               "host" : "i686-mingw32",
-              "size" : "52584650",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-windows_x86_64.tar.gz"
+              "size" : "52245804",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-windows_x86_64.tar.gz"
             },
             {
-              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230418-linux_x86_64.tar.gz",
-              "checksum" : "SHA-256:504fc1d069f7947065b2c3cd2d30cca8bacd784ebf655e5f1292ab9a9111862a",
+              "archiveFileName" : "7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz",
+              "checksum" : "SHA-256:52b036f9341eca3b615d861017e807674a91288738e2e2f968b3dedb79eaf375",
               "host" : "x86_64-linux-gnu",
-              "size" : "52136137",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230418-linux_x86_64.tar.gz"
+              "size" : "51793717",
+              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-230322-linux_x86_64.tar.gz"
             }
           ],
           "version" : "7.3.0-avr8-gnu-toolchain"
