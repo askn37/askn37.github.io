@@ -1,4 +1,4 @@
-# MultiX Zinnia Product : All Open-Source / Open-Hardware
+# MultiX Zinnia Product : All Open Source Software / Hardware
 
 ![Zinnia Logo](Zinnia_Logo.png)
 
@@ -16,13 +16,21 @@ __WARNING: Arduino compatible API is not provided.__
   [`https://askn37.github.io/package_multix_zinnia_index.json`](https://askn37.github.io/package_multix_zinnia_index.json)
 - Then search for `multix` in Boards Manager.
 - Select the desired architecture and install.\
-  `megaAVR` `modernAVR` `reduceAVR`
+  `megaAVR` / `modernAVR` / `reduceAVR`
 - [For more information](https://github.com/askn37/askn37.github.io/wiki/InformationSDK) (ja-JP)
+
+## Product "UPDI4AVR" : UPDI Programer Writer with High-Voltage Activation
+
+[<img src="product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg" width="240">](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg)
+
+- UPDI programmer writer with HV activation. (66x31mm)
+- It can also be reset without destroying the functionality of the target MCU's UPDI pin.
+- Compatible with all Microchip AVR DA/DB/DD/EA/EB, Atmel tinyAVR-0/1/2 and megaAVR-0 series.
+- [For more information](product/UPDI4AVR) (ja-JP)
 
 ## Product "Duino" : modernAVR Board with Battery Powered
 
 [<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_top.svg)
-[<img src="product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg" width="397">](https://askn37.github.io/product/Duino/2220_Zinnia-Duino-MZD2211B/Zinnia-Duino-MZD2211B_bottom.svg)
 
 - Battery powered board with modernAVR. (79x53mm)
 - Adopts Microchip AVR DA/DB/DD or Atmel ATmega**08 series. (TQFP32)
@@ -32,15 +40,6 @@ __WARNING: Arduino compatible API is not provided.__
 - Arduino compatible external pin layout.
 - x1 Grove/M5 compatible I2C connector.
 - [For more information](product/Duino) (ja-JP)
-
-## Product "UPDI4AVR" : UPDI Programer Writer with High-Voltage Activation
-
-[<img src="product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg" width="240">](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg)
-
-- UPDI programmer writer with HV activation. (66x32mm)
-- It can also be reset without destroying the functionality of the target MCU's UPDI pin.
-- Compatible with all Microchip AVR DA/DB/DD, Atmel tinyAVR-0/1/2 and megaAVR-0 series.
-- [For more information](product/UPDI4AVR) (ja-JP)
 
 ## Product "TPI4AVR" : TPI Programer Writer with High-Voltage Activation
 
