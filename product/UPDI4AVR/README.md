@@ -1,6 +1,6 @@
 # [MULTIX UPDI4AVR Programmer] modernAVR世代専用HV対応プログラム書込器
 
-![セット内容](images/IMG_3530.png)
+![セット内容](https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png)
 
 ## 概要
 
@@ -95,35 +95,35 @@
 
 ## コンポーネント配置
 
-![](images/Image-2.drawio.svg)
+![](https://askn37.github.io/product/UPDI4AVR/images/Image-2.drawio.svg)
 
 ## AVR-ICSP端子配列
 
-![](images/Image-1.drawio.svg)
+![](https://askn37.github.io/product/UPDI4AVR/images/Image-1.drawio.svg)
 
 > 端子ピッチは 2.54mm（100mil）
 
 ## 使用例
 
-![IDCリボンケーブルでの接続](images/IMG_3529.png)
+![IDCリボンケーブルでの接続](https://askn37.github.io/product/UPDI4AVR/images/IMG_3529.png)
 
-![ブレッドボードとの接続](images/IMG_3527.png)
+![ブレッドボードとの接続](https://askn37.github.io/product/UPDI4AVR/images/IMG_3527.png)
 
 ## 関連リンク
 
-- [使い方の手引き](1_Usage.md)
-- [avrdude.conf 修正の要点](2_Configuration.md)
-- [avrdude コマンド操作例](3_Oparation.md)
+- [使い方の手引き](https://askn37.github.io/product/UPDI4AVR/1_Usage.md)
+- [avrdude.conf 修正の要点](https://askn37.github.io/product/UPDI4AVR/2_Configuration.md)
+- [avrdude コマンド操作例](https://askn37.github.io/product/UPDI4AVR/3_Oparation.md)
 
 ## オープンソースソフトウェア・ハードウェア
 
 - [askn37 / multix-zinnia-updi4avr-firmware-builder](https://github.com/askn37/multix-zinnia-updi4avr-firmware-builder) - for UPDI4AVR Firmware
-- [回路図](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2406B2.pdf)（PDF）
-- [基板線図](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_layers.svg)（SVG）
-  - [基板表面](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg)（SVG）
-  - [基板裏面](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_bottom.svg)（SVG）
-- [ガーバーファイル](2306_UPDI4AVR/PCBA/)（ZIP）
-- [保護ケース](2306_UPDI4AVR/3DP/)（STL）
+- [回路図](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2406B2.pdf)（PDF）
+- [基板線図](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_layers.svg)（SVG）
+  - [基板表面](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg)（SVG）
+  - [基板裏面](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_bottom.svg)（SVG）
+- [ガーバーファイル](https://github.com/askn37/askn37.github.io/tree/main/product/UPDI4AVR/2306_UPDI4AVR/PCBA/)（ZIP）
+- [保護ケース](https://github.com/askn37/askn37.github.io/tree/main/product/UPDI4AVR/2306_UPDI4AVR/3DP/)（STL）
 
 ## Copyright and Contact
 
