@@ -118,7 +118,7 @@
 ## オープンソースソフトウェア・ハードウェア
 
 - [askn37 / multix-zinnia-updi4avr-firmware-builder](https://github.com/askn37/multix-zinnia-updi4avr-firmware-builder) - for UPDI4AVR Firmware
-- [回路図](2306_UPDI4AVR/2306_Zinnia-UPDI4AVRB2.pdf)（PDF）
+- [回路図](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2406B2.pdf)（PDF）
 - [基板線図](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_layers.svg)（SVG）
   - [基板表面](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg)（SVG）
   - [基板裏面](2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_bottom.svg)（SVG）
