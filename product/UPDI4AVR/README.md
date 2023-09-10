@@ -111,9 +111,9 @@
 
 ## 関連リンク
 
-- [使い方の手引き](https://askn37.github.io/product/UPDI4AVR/1_Usage.md)
-- [avrdude.conf 修正の要点](https://askn37.github.io/product/UPDI4AVR/2_Configuration.md)
-- [avrdude コマンド操作例](https://askn37.github.io/product/UPDI4AVR/3_Oparation.md)
+- [使い方の手引き](https://askn37.github.io/product/UPDI4AVR/1_Usage.html)
+- [avrdude.conf 修正の要点](https://askn37.github.io/product/UPDI4AVR/2_Configuration.html)
+- [avrdude コマンド操作例](https://askn37.github.io/product/UPDI4AVR/3_Oparation.html)
 
 ## オープンソースソフトウェア・ハードウェア
 
