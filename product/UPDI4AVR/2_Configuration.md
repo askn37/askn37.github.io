@@ -1,5 +1,7 @@
 # [MULTIX UPDI4AVR Programmer] avrdude.conf 修正の要点
 
+Switch Language [(en-US)](2_Configuration_en.html) [(ja-JP)](2_Configuration.html)
+
 古い avrdude に付属している conf ファイルには、
 最新のデバイスを操作するには欠けている設定がいくつかあります。
 正しく制御できない場合は下記の情報を参考に修正してください。

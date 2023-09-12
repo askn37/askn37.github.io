@@ -1,5 +1,7 @@
 # [MULTIX UPDI4AVR Programmer] 使い方の手引き
 
+Switch Language [(en-US)](1_Usage_en.html) [(ja-JP)](1_Usage.html)
+
 ## PCとの接続
 
 UPDI4AVR と PCとの接続には別途 USB Type-C ケーブルが必要です。

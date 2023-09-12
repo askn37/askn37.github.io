@@ -1,5 +1,7 @@
 # [MULTIX UPDI4AVR Programmer] modernAVR世代専用HV対応プログラム書込器
 
+Switch Language [(en-US)](README_en.html) [(ja-JP)](index.html)
+
 ![セット内容](https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png)
 
 ## 概要
@@ -18,7 +20,7 @@
 
 ## 購入時の注意
 
-- 旧世代（非UPDI）および SAM世代 AVR（JTAG）には対応しません。
+- 旧世代 AVR（非UPDI）および SAM世代 AVR（JTAG）には対応しません。
 - トレース＆ブレークデバッグはできません。（Microchip社プロプライエタリ）
 - HV制御が不要なら高価な選択になります。
 - ハンドメイドのため外観仕上に個体差があります。

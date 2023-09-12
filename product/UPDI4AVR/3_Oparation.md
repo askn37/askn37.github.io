@@ -1,5 +1,7 @@
 # [MULTIX UPDI4AVR Programmer] avrdude コマンド操作例
 
+Switch Language [(en-US)](3_Oparation_en.html) [(ja-JP)](3_Oparation.html)
+
 > 以下の用例は avrdude コマンドにパスが通されている前提で記述されています。
 
 UPDI4AVR を使用するには、acrdude.conf に以下の設定を追加してください。
