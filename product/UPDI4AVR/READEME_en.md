@@ -114,7 +114,7 @@ Switch Language [(en-US)](README_en.html) [(ja-JP)](index.html)
 ## Related Links
 
 - [Usage guide](https://askn37.github.io/product/UPDI4AVR/1_Usage_en.html)
-- [Main points for modifying avrdude.conf](https://askn37.github.io/product/UPDI4AVR/2_Configuration_en.html)
+- [Key points for modifying avrdude.conf](https://askn37.github.io/product/UPDI4AVR/2_Configuration_en.html)
 - [avrdude command operation example](https://askn37.github.io/product/UPDI4AVR/3_Oparation_en.html)
 
 ## Open source software and hardware

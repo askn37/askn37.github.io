@@ -160,7 +160,7 @@ The maximum value must be 8 / 16 / 32 / 64 bytes (device dependent).
 The `-e` device erase operation when the FUSE EEPROM save bit is set is
 Does not erase the entire EEPROM area.
 
-###userrow
+### userrow
 
 USERROW is not subject to `-e` device erase operations.
 
@@ -346,29 +346,29 @@ Each device must have a separate `memory "data"` setting written correctly.
 This is the start address of the installed SRAM area and is listed in the individual data sheet.
 
 ```conf
-part parent ".avrdx"
-     id = "avr32dd14";
-     desc = "AVR32DD14";
-     signature = 0x1E 0x95 0x3B;
+part parent    ".avrdx"
+    id        = "avr32dd14";
+    desc      = "AVR32DD14";
+    signature = 0x1E 0x95 0x3B;
 
-     memory "flash"
-         size = 0x8000;
-         offset = 0x800000;
-         page_size = 0x200;
-         readsize = 0x100;
-     ;
+    memory "flash"
+        size      = 0x8000;
+        offset    = 0x800000;
+        page_size = 0x200;
+        readsize  = 0x100;
+    ;
 
-     memory "eeprom"
-         size = 0x100;
-         offset = 0x1400;
-         page_size = 0x10;
-         readsize = 0x100;
-     ;
+    memory "eeprom"
+        size      = 0x100;
+        offset    = 0x1400;
+        page_size = 0x10;
+        readsize  = 0x100;
+    ;
 
-     memory "data"
-     # USERROW special write address for locked device.
-         offset = 0x7000;
-     ;
+    memory "data"
+    # USERROW special write address for locked device.
+        offset    = 0x7000;
+    ;
 ;
 ```
 
