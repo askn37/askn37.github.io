@@ -27,7 +27,7 @@ __WARNING: Arduino compatible API is not provided.__
 - It can also be reset without destroying the functionality of the target MCU's UPDI pin.
 - Compatible with all Microchip AVR DA/DB/DD/EA/EB, Atmel tinyAVR-0/1/2 and megaAVR-0 series.
 - [For more information (ja-JP)](product/UPDI4AVR)
-[(en-US)](product/UPDI4AVR/READEME_en.html)
+[(en-US)](product/UPDI4AVR/README_en.html)
 
 ## Product "Duino" : modernAVR Board with Battery Powered
 
