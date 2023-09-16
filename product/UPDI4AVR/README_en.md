@@ -1,6 +1,6 @@
 # [MULTIX UPDI4AVR Programmer] HV compatible program writer for modernAVR generation
 
-Switch Language [(en-US)](README_en.html) [(ja-JP)](index.html)
+Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.html) [(ja-JP)](https://askn37.github.io/product/UPDI4AVR/)
 
 ![Set contents](https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png)
 
