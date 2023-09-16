@@ -18,6 +18,13 @@ Switch Language [(en-US)](README_en.html) [(ja-JP)](index.html)
 - Arduino IDE対応、JTAG2UPDI互換
 - オープンソースソフトウェア・ハードウェア
 
+## 特別な特徴
+
+- 12V系と8.2V系の、二種類の高電圧プログラミングに対応
+  - 特に8.2V系も扱える書込装置はユニーク
+- 施錠されたAVRデバイスの USERROW領域へのブラインド書込
+  - 制御手順が特殊なため他に実装例が見られない
+
 ## 購入時の注意
 
 - 旧世代 AVR（非UPDI）および SAM世代 AVR（JTAG）には対応しません。

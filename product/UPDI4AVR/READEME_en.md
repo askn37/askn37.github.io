@@ -18,6 +18,13 @@ Switch Language [(en-US)](README_en.html) [(ja-JP)](index.html)
 - Arduino IDE compatible, JTAG2UPDI compatible
 - Open source software and hardware
 
+## Special features
+
+- Supports two types of high voltage programming: 12V and 8.2V
+   - Especially the writing device that can handle 8.2V system is unique.
+- Blind write to USERROW area of locked AVR device
+   - Because the control procedure is special, no other implementation examples can be found.
+
 ## Precautions when purchasing
 
 - Not compatible with older generation AVR (non-UPDI) and SAM generation AVR (JTAG).
