@@ -34,43 +34,43 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 
 ## Compatible AVR types
 
-- megaAVR-0 system (not HV)
+- megaAVR-0 series (not HV)
    - ATmega808 ATmega1608 ATmega3208 __ATmega4808__
    - ATmega809 ATmega1609 ATmega3209 __ATmega4809__
-- tinyAVR-0 system (HV=12V to PA0)
+- tinyAVR-0 series (HV=12V to PA0)
    - __ATtiny202__ ATtiny402
    - ATtiny204 ATtiny404 ATtiny804 ATtiny1604
    - ATtiny406 ATtiny806 ATtiny1606
    - ATtiny807 ATtiny1607
-- tinyAVR-1 system (HV=12V to PA0)
+- tinyAVR-1 series (HV=12V to PA0)
    - ATtiny212 __ATtiny412__
    - ATtiny214 ATtiny414 ATtiny814 __ATtiny1614__
    - ATtiny416 ATtiny816 __ATtiny1616__
    - ATtiny417 ATtiny817 ATtiny1617
-- tinyAVR-2 system (HV=12V to PA0)
+- tinyAVR-2 series (HV=12V to PA0)
    - ATtiny424 __ATtiny824__ ATtiny1624 ATtiny3224
    - ATtiny426 ATtiny826 __ATtiny1626__ __ATtiny3226__
    - ATtiny427 ATtiny827 ATtiny1627 ATtiny3227
-- AVR_DA system (not HV)
+- AVR_DA series (not HV)
    - AVR32DA28 AVR64DA28 __AVR128DA28__
    - __AVR32DA32__ AVR64DA32 AVR128DA32
    - AVR32DA48 AVR64DA48 AVR128DA48
    - AVR32DA64 AVR64DA64 AVR128DA64
-- AVR_DB system (not HV)
+- AVR_DB series (not HV)
    - AVR32DB28 AVR64DB28 AVR128DB28
    - AVR32DB32 AVR64DB32 __AVR128DB32__
    - AVR32DB48 AVR64DB48 __AVR128DB48__
    - AVR32DB64 AVR64DB64 AVR128DB64
-- AVR_DD system (HV=8.2V to PF6)
+- AVR_DD series (HV=8.2V to PF6)
    - AVR16DD14 __AVR32DD14__ AVR64DD14
    - AVR16DD20 AVR32DD20 AVR64DD20
    - AVR16DD28 AVR32DD28 AVR64DD28
    - AVR16DD32 AVR32DD32 __AVR64DD32__
-- AVR_EA system (HV=8.2V to PF6)
+- AVR_EA series (HV=8.2V to PF6)
    - AVR16EA28 AVR32EA28 AVR64EA28
    - AVR16EA32 AVR32EA32 __AVR64EA32__
    - AVR16EA48 AVR32EA48 AVR64EA48
-- AVR_EB system (not released as of 2023/07 scheduled to be supported)
+- AVR_EB series (not released as of 2023/07 scheduled to be supported)
    - *AVR16EB14*
    - *AVR16EB20*
    - *AVR16EB28*
