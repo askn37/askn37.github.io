@@ -6,7 +6,7 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 
 ## Overview
 
-- New generation AVR 8bit MCU dedicated program writing device with UPDI control method
+- New generation AVR 8 bit MCU dedicated program writing device with UPDI programmer.
 - Rewriting/backup/verification of Flash/EEPROM/FUSE, etc.
 - For tinyAVR-0/1/2, megeAVR-0, AVR DA/DB/DD/EA series only
 - HV (high voltage) control for tinyAVR-0/1/2, AVR_DD/EA series

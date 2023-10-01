@@ -6,7 +6,7 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 
 ## 概要
 
-- UPDI制御方式の新世代 AVR 8bit MCU 専用プログラム書込装置
+- UPDI制御方式の新世代 AVR 8 bit MCU 専用 UPDIプログラマ
 - Flash / EEPROM / FUSE等の書換・バックアップ・検証
 - tinyAVR-0/1/2、megeAVR-0、AVR DA/DB/DD/EA シリーズ専用
 - tinyAVR-0/1/2、AVR_DD/EA シリーズの HV（高電圧）制御

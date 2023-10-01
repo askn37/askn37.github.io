@@ -19,7 +19,7 @@ __WARNING: Arduino compatible API is not provided.__
   `megaAVR` / `modernAVR` / `reduceAVR`
 - [For more information](https://github.com/askn37/askn37.github.io/wiki/InformationSDK) (ja-JP)
 
-## Product "UPDI4AVR" : UPDI Programer Writer with High-Voltage Activation
+## Product "UPDI4AVR" : UPDI Programmer Writer with High-Voltage Activation
 
 [<img src="product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg" width="240">](https://askn37.github.io/product/UPDI4AVR/2306_UPDI4AVR/2306_Zinnia-UPDI4AVR-MZU2306B7_top.svg)
 
@@ -42,7 +42,7 @@ __WARNING: Arduino compatible API is not provided.__
 - x1 Grove/M5 compatible I2C connector.
 - [For more information](product/Duino) (ja-JP)
 
-## Product "TPI4AVR" : TPI Programer Writer with High-Voltage Activation
+## Product "TPI4AVR" : TPI Programmer Writer with High-Voltage Activation
 
 [<img src="product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg" width="240">](https://askn37.github.io/product/TPI4AVR/2222_Zinnia-TPI4AVRF-MZU2217B/Zinnia-TPI4AVRF-MZU2217B_top.svg)
 
