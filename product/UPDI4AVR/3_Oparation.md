@@ -10,15 +10,22 @@ JTAG2UPDI 用の設定がすでにされている場合は、
 
 ```conf
 programmer
-  id    = "updi4avr";
-  desc  = "JTAGv2 to UPDI bridge";
-  type  = "jtagmkii_pdi";
-  connection_type = serial;
-  baudrate = 230400;
+    id                     = "updi4avr";
+    desc                   = "JTAGv2 to UPDI bridge";
+    type                   = "jtagmkii_updi";
+    prog_modes             = PM_UPDI;
+    connection_type        = serial;
+    baudrate               = 230400;
+    hvupdi_support         = 0, 1, 2;
 ;
 ```
 
 > 任意の avrdude.conf を直接指定する場合は `-C` オプションを使います。
+
+> avrdude 6.x 以前（それはArduino IDEに付属しているものです）では`jtagmkii_updi`が定義されておらず、
+代わりに`jtagmkii_pdi`を指定する必要があります。
+この場合各`part`セクションに`has_updi = yes`指示がなければなりません。
+また`eeprom`設定には`page_size = 1`指示が必要になります。
 
 > JTAG2UPDIの規定速度は`-b 115200`に等価です。
 
@@ -152,10 +159,8 @@ avrdude.conf の当該デバイス設定には`load_ext_addr`指示がなけれ�
 ### eeprom
 
 EEPROM 領域は 1バイト単位で読み書きができます。
-ただし `page_size = 1` は FUSE 領域限定のため、
-最低でも 2 が指定されているべきです。
-そして一度に書けるページ粒度は対象AVRデバイス内蔵のコントローラ仕様に依存するため、
-最大値は 8 / 16 / 32 / 64 バイト（デバイス依存）のいずれかでなければなりません。
+しかし一度に書けるページ粒度は対象AVRデバイス内蔵のコントローラ仕様に依存するため、
+最大値は 8 / 16 / 32 / 64 バイト（デバイス依存）のいずれかであるべきです。
 
 FUSE の EEPROMセーブビットがセットされている時の `-e` デバイス消去操作は
 EEPROM 領域を全体消去しません。
@@ -273,6 +278,9 @@ UPDI端子と GPIOあるいは RESET端子の機能が必ず排他選択とな�
 HV制御権の獲得は電気的に困難となるため、推奨されません。
 UPDI用途以外に変更するならば、RESET用か、INPUT専用の GPIOとすべきです。
 
+> 一部の品種（AVR_EAシリーズ等）では`erasing chip`操作中に応答を失うことがあります。
+この場合はもう一度同じ操作を繰り返してください。
+
 ### JP1ジャンパーショート
 
 通常、HV制御を開始するにはフェイルセーフのため `-U -F -e` の3つ組を指定しなければなりません。
@@ -389,7 +397,23 @@ avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
 
 USERROWを初期化消去したい場合は、全体を 0xFF で上書きしてください。
 
-> 施錠されたデバイスへの対話ターミナルモードでの USERROW 書き換えは推奨されません。
+> 施錠されたデバイスへの対話ターミナルモードでのバイト単位 USERROW 書き換えは推奨されません。
+
+## AVR_Ex シリーズの補足
+
+AVR_Ex シリーズ対応は UPDI4AVR 0.2.5 時点ではまだ実験的です。
+これには幾つかの既知の問題があります。
+
+- 対象デバイスリセット（POR）後の、最初のUPDI開始タイミングが従前のシリーズと異なるようです。
+このため期待するUPDI応答が観測できないことがあります。
+- 前述に関連して、HV制御開始後の`chip erase`指令でその完了が観測できません。
+- ターミナルモードでのコマンド実行を間断なく繰り返すした時、応答がなくなることがあります。
+これはコマンド間に`sleep`を挿入していても再現します。
+
+いずれの場合も`RSP_ILLEGAL_MCU_STATE`エラー中断が発生します。
+対象デバイスの電源を切らずにコマンド実行を再試行してください。
+
+> avrdude 7.2 以降では`-xrtsdtr=low`コマンドオプションを追加できるため、これによって多少改善する可能性があります。
 
 ## avrdude オプションの補足
 

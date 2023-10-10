@@ -13,13 +13,21 @@ UPDI4AVR is JTAG2UPDI compatible, but it will run faster if you add the `-p` set
 
 ```conf
 programmer
-   id = "updi4avr";
-   desc = "JTAGv2 to UPDI bridge";
-   type = "jtagmkii_pdi";
-   connection_type = serial;
-   baudrate = 230400;
+    id                     = "updi4avr";
+    desc                   = "JTAGv2 to UPDI bridge";
+    type                   = "jtagmkii_updi";
+    prog_modes             = PM_UPDI;
+    connection_type        = serial;
+    baudrate               = 230400;
+    hvupdi_support         = 0, 1, 2;
 ;
 ```
+
+> In avrdude 6.x and earlier (that's what comes with the Arduino IDE)
+`jtagmkii_updi` is not defined and
+You should specify `jtagmkii_pdi` instead.
+In this case each `part` section must have a `has_updi = yes` directive.
+Also, the `page_size = 1` instruction is required for the `eeprom` setting.
 
 > The maximum speed of JTAG2UPDI is `-b 115200` and higher speeds are not recommended.
 
@@ -82,29 +90,56 @@ As a result, the region contents are corrupted and validation fails.
 > At least for avrdude 7.1 or later, there should be no need to add this.
 There is no harm in adding it.
 
-## Proper EEPROM page granularity in AVR_Dx series
+## Appropriate EEPROM page granularity
 
-If the EEPROM area cannot be written correctly on AVR_Dx series or later,
-The `page_size` value of `memory "eeprom"` is too small or too large.
-This value must not be `1`.
-For AVR_DA/DB/DD series, `0x10` (16),
-For the AVR_EA series, specify `0x08` (8).
+Especially if the EEPROM area cannot be written correctly on AVR_Dx series or later,
+The `page_size` value in the `memory "eeprom"` section is either too small or too large.
+16 for AVR_DA/DB/DD series,
+Please specify 8 for AVR_EA/EB series.
 
 ```conf
-     memory "eeprom"
-         size = 0x100;
-         offset = 0x1400;
-         page_size = 0x10; # HERE
-         readsize = 0x100;
-     ;
+    memory "eeprom"
+        size      = 256;
+        offset    = 0x1400;
+        page_size = 16;       # HERE
+        readsize  = 256;
+    ;
 ```
 
-> Recommended value is 0x20 (32) for tinyAVR series and 0x40 (64) for megaAVR series.
-> These differences depend on the version and operating characteristics of the NVMCTRL controller installed in the target AVR.
+32 for the tinyAVR series,
+and 64 in some varieties;
+64 is the recommended value for megaAVR series.
+These differences depend on the characteristics of the `NVMCTRL` controller installed in the target AVR.
 
-> For values outside the range
+For values exceeding the limit range
 `warning: timeout/error communicating with programmer`
 will be reported.
+This is within the timeout limit for waiting for reception after sending on the *avrdude* side.
+This means that one write operation was not completed.
+At the same time it will fall back to single byte slow operation.
+To eliminate this problem and write as quickly and efficiently as possible,
+You must reduce `page_size` to an appropriate size.
+
+> In tinyAVR and megaAVR series, `NVMCTRL` control is
+Because it has its own buffer memory that is separate from SRAM and is large enough,
+Larger block sizes can be written in one operation than other series.
+However, when spanning memory alignment, operations must be split.
+Therefore, the maximum valid `page_size` value is 32 or 64.
+The same applies to `userrow` in these series.
+
+> In the AVR_DA/DB/DD series, the `NVMCTRL` controller does not have buffer memory,
+Since the only option is to rewrite `eeprom` in 1-byte units,
+It has to be slower than other series.
+The upper limit is often 16.
+
+> In the AVR_EA/EB series, the `NVMCTRL` controller has
+Since the buffer memory for EEPROM is 8 bytes (memory alignment),
+A single operation must be no more than 8 bytes.
+
+`page_size` is 1 which will definitely work for any series.
+However, if you share *abrdude.conf* with other writers,
+Unless `page_size=2` or more, the writer may not work properly.
+This occurs when `page_size=1` is implemented as an implicit `FUSE` rewrite behavior.
 
 ## Insufficient memory "data" setting
 

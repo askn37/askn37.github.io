@@ -13,13 +13,21 @@ UPDI4AVR は JTAG2UPDI 互換ですが、`-p` 指定用の設定を追加すれ�
 
 ```conf
 programmer
-  id   = "updi4avr";
-  desc = "JTAGv2 to UPDI bridge";
-  type = "jtagmkii_pdi";
-  connection_type = serial;
-  baudrate = 230400;
+    id                     = "updi4avr";
+    desc                   = "JTAGv2 to UPDI bridge";
+    type                   = "jtagmkii_updi";
+    prog_modes             = PM_UPDI;
+    connection_type        = serial;
+    baudrate               = 230400;
+    hvupdi_support         = 0, 1, 2;
 ;
 ```
+
+> avrdude 6.x 以前（それはArduino IDEに付属しているものです）では
+`jtagmkii_updi`が定義されておらず、
+代わりに`jtagmkii_pdi`を指定する必要があります。
+この場合各`part`セクションに`has_updi = yes`指示がなければなりません。
+また`eeprom`設定には`page_size = 1`指示が必要になります。
 
 > JTAG2UPDI の最高速度は `-b 115200` でそれ以上は推奨されません。
 
@@ -33,7 +41,7 @@ UPDI4AVR は FW=7.53 時点では依存せず、
 
 ## memory "boot" 設定の不足
 
-この設定が不足していると、
+avrdude 6.x 以前でこの設定が不足していると、
 Flash書き込み時に「"boot"設定がない」という余分な警告が表示されることがあります。
 これを避けるには `memory "boot"` に `size = 0` を与えてください。
 
@@ -82,29 +90,56 @@ avrdude は後半64KiB領域を 上書きしようとします。
 > 少なくとも avrdude 7.1 以降では追記する必要はないはずです。
 追記しても害はありません。
 
-## AVR_Dx シリーズでの適切な EEPROMページ粒度
+## 適切な EEPROMページ粒度
 
-AVR_Dx シリーズ以降で EEPROM領域が正しく書けないない場合は、
-`memory "eeprom"`の`page_size`値が小さすぎるか、大きすぎます。
-この値は `1` であってはなりません。
-AVR_DA/DB/DD シリーズでは `0x10`（16）を、
-AVR_EA シリーズでは `0x08`（8）を、それぞれ指定してください。
+特に AVR_Dx シリーズ以降で EEPROM領域が正しく書けないない場合は、
+`memory "eeprom"`セクションの`page_size`値が小さすぎるか、大きすぎます。
+AVR_DA/DB/DD シリーズでは 16 を、
+AVR_EA/EB シリーズでは 8を、それぞれ指定してください。
 
 ```conf
     memory "eeprom"
-        size      = 0x100;
+        size      = 256;
         offset    = 0x1400;
-        page_size = 0x10;       # HERE
-        readsize  = 0x100;
+        page_size = 16;       # HERE
+        readsize  = 256;
     ;
 ```
 
-> tinyAVR シリーズでは 0x20（32）が、megaAVR シリーズでは 0x40（64）が推奨値です。
-> これらの違いは対象AVRに搭載されている NVMCTRL 制御器のバージョンや動作特性に依存します。
+tinyAVR シリーズでは 32 が、
+かつ一部の品種では 64 が、
+megaAVR シリーズでは 64 が推奨値です。
+これらの違いは対象AVRに搭載されている`NVMCTRL`制御器の特性に依存します。
 
-> 範囲外の値では
+制限範囲を超える値では
 `warning: timeout/error communicating with programmer`
-がレポートされます。
+がレポートされるでしょう。
+これは *avrdude* 側の送信後受信待機タイムアウト制限時間内に
+一回の書込操作が終わらなかったことを意味します。
+同時にそれは1バイト単位の低速動作へフォールバックするでしょう。
+この問題を解消して可能な限り早く効率的に書き込むには、
+`page_size`を適切な大きさまで小さくしなければなりません。
+
+> tinyAVR と megaAVR シリーズでは`NVMCTRL`制御器が
+SRAMとは別の十分大きな独自の緩衝メモリを持っているため、
+他のシリーズより大きなブロックサイズを一回の操作で書くことができます。
+ただしメモリアライメントを跨ぐ場合は操作を分割しなければなりません。
+従って有効な`page_size`の最大値は 32か 64になります。
+なおこれらのシリーズでは`userrow`に対しても同様です。
+
+> AVR_DA/DB/DD シリーズは`NVMCTRL`制御器が緩衝メモリを持たず、
+1バイト単位で`eeprom`を書き換えるしかないため、
+他のシリーズに比べて低速にならざるを得ません。
+多くの場合その上限は 16です。
+
+> AVR_EA/EB シリーズでは`NVMCTRL`制御器の持つ
+EEPROM用の緩衝メモリが8バイト（メモリアライメント）であるため、
+一回の操作は8バイトまでにしなければなりません。
+
+どのシリーズでも確実に動作するであろう`page_size`は1です。
+しかし*abrdude.conf*を他の書込器と共有する場合、
+`page_size=2`以上でなければその書込器が正常動作しない場合があります。
+これは`page_size=1`が暗黙の`FUSE`書換動作として実装されている場合に生じます。
 
 ## memory "data" 設定不足
 

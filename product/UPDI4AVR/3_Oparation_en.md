@@ -10,15 +10,22 @@ You can also select it as `-c jtag2updi`.
 
 ```conf
 programmer
-   id = "updi4avr";
-   desc = "JTAGv2 to UPDI bridge";
-   type = "jtagmkii_pdi";
-   connection_type = serial;
-   baudrate = 230400;
+    id                     = "updi4avr";
+    desc                   = "JTAGv2 to UPDI bridge";
+    type                   = "jtagmkii_updi";
+    prog_modes             = PM_UPDI;
+    connection_type        = serial;
+    baudrate               = 230400;
+    hvupdi_support         = 0, 1, 2;
 ;
 ```
 
 > Use the `-C` option to directly specify any avrdude.conf.
+
+> avrdude 6.x and earlier (which is the one that comes with the Arduino IDE) does not define `jtagmkii_updi`,
+You should specify `jtagmkii_pdi` instead.
+In this case each `part` section must have a `has_updi = yes` directive.
+Also, the `page_size = 1` instruction is required for the `eeprom` setting.
 
 > The specified speed of JTAG2UPDI is equivalent to `-b 115200`.
 
@@ -152,10 +159,8 @@ Instead, processing speed is more limited than with the `-e` directive.
 ### eeprom
 
 The EEPROM area can be read and written in 1-byte units.
-However, `page_size = 1` is limited to FUSE area, so
-At least 2 should be specified.
-The page granularity that can be written at once depends on the controller specifications built into the target AVR device, so
-The maximum value must be 8 / 16 / 32 / 64 bytes (device dependent).
+However, the page granularity that can be written at once depends on the controller specifications built into the target AVR device, so
+The maximum value should be 8 / 16 / 32 / 64 bytes (device dependent).
 
 The `-e` device erase operation when the FUSE EEPROM save bit is set is
 Does not erase the entire EEPROM area.
@@ -273,6 +278,9 @@ HV control is required to return to UPDI controllable state again.
 Obtaining HV control rights is electrically difficult and is therefore not recommended.
 If you change it to something other than UPDI, it should be his GPIO for RESET or INPUT only.
 
+> Some products (AVR_EA series, etc.) may lose response during the `erasing chip` operation.
+In this case, please repeat the same operation again.
+
 ### JP1 jumper short
 
 Normally, to start HV control, you must specify the `-U -F -e` triplet for fail-safety.
@@ -389,7 +397,23 @@ avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
 
 If you want to initialize and erase USERROW, overwrite the entire file with 0xFF.
 
-> USERROW rewriting in interactive terminal mode to a locked device is not recommended.
+> Byte-by-byte USERROW rewriting in interactive terminal mode to locked devices is not recommended.
+
+## Supplement for AVR_Ex series
+
+AVR_Ex series support is still experimental as of UPDI4AVR 0.2.5.
+This has some known issues.
+
+- The first UPDI start timing after target device reset (POR) seems to be different from the previous series.
+For this reason, the expected UPDI response may not be observed.
+- Related to the above, completion of the `chip erase` command after starting HV control cannot be observed.
+- When repeatedly executing commands in terminal mode, there may be no response.
+This is reproduced even if `sleep` is inserted between commands.
+
+In either case, an `RSP_ILLEGAL_MCU_STATE` error interruption occurs.
+Please retry the command execution without turning off the power to the target device.
+
+> Since avrdude 7.2 you can add the `-xrtsdtr=low` command option, which may improve it somewhat.
 
 ## avrdude option supplement
 

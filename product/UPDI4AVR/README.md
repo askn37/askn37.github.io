@@ -94,7 +94,7 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 ### 商品内容
 
 - x1 UPDI4AVR 本体基板
-- x1 保護ケースセット（x2 ピース構成、x2 固定ビス）
+- x1 保護ケースセット（x2 ピース構成）
 - x1 IDC/6Pリボンケーブル
 - x1 JP1ジャンパープラグ
 

@@ -94,7 +94,7 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 ### Product contents
 
 - x1 UPDI4AVR main board
-- x1 protective case set (x2 piece configuration, x2 fixing screws)
+- x1 protective case set (x2 piece configuration)
 - x1 IDC/6P ribbon cable
 - x1 JP1 jumper plug
 
