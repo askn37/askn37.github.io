@@ -141,6 +141,7 @@ Lights up if any of the UPDI / HTCR / HRCT signals are communication active (log
 For tinyAVR series and AVR_DD/EA series
 HV control is possible to change the control function of the UPDI terminal with FUSE.
 
+- Requires the attached `avrdude.conf.UPDI4AVR` configuration file.
 - Before starting HV control, both the target AVR device and writing device should be powered off.
 - The tinyAVR series supplies a 12V high voltage pulse to the PA0/UPDI terminal.
 - AVR_DD/EA series supplies 8.2V high voltage pulse to PF6/RESET pin.
@@ -199,11 +200,12 @@ It is necessary to use a conversion adapter (half-pitch con-through terminal) so
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
-Released under the MIT license
+Copyright (c) 2023 askn (K.Sato) multix.jp \
+Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)

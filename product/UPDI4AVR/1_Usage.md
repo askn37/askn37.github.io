@@ -141,6 +141,7 @@ UPDI / HTCR / HRCT 信号の何れかが 通信アクティブ（論理LOW）で
 tinyAVR シリーズと、AVR_DD/EA シリーズに対しては
 UPDI端子の制御機能を FUSE 変更するための HV制御が可能です。
 
+- 添付の`avrdude.conf.UPDI4AVR`構成ファイルが必要です。
 - HV制御を始める前には、対象AVRデバイス・書込装置共、電源をいちどオフにすべきです。
 - tinyAVR シリーズでは、PA0/UPDI 端子に対して 12V の高電圧パルスを供給します。
 - AVR_DD/EA シリーズでは、PF6/RESET 端子に対して 8.2V の高電圧パルスを供給します。
@@ -199,11 +200,12 @@ HV制御を有効にして書き換えてください。
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
+Copyright (c) 2023 askn (K.Sato) multix.jp \
 Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)

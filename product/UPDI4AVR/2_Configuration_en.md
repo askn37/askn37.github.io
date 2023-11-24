@@ -15,11 +15,11 @@ UPDI4AVR is JTAG2UPDI compatible, but it will run faster if you add the `-p` set
 programmer
     id                     = "updi4avr";
     desc                   = "JTAGv2 to UPDI bridge";
-    type                   = "jtagmkii_updi";
-    prog_modes             = PM_UPDI;
+    type                   = "jtagmkii_updi";   # jtagmkii_pdi before v7.1
+    prog_modes             = PM_UPDI;           # v7.2 or later
     connection_type        = serial;
     baudrate               = 230400;
-    hvupdi_support         = 0, 1, 2;
+    hvupdi_support         = 0, 1, 2;           # v7.2 or later
 ;
 ```
 
@@ -94,16 +94,16 @@ There is no harm in adding it.
 
 Especially if the EEPROM area cannot be written correctly on AVR_Dx series or later,
 The `page_size` value in the `memory "eeprom"` section is either too small or too large.
-16 for AVR_DA/DB/DD series,
+1 or 2 for AVR_DA/DB/DD series,
 Please specify 8 for AVR_EA/EB series.
 
 ```conf
-    memory "eeprom"
-        size      = 256;
-        offset    = 0x1400;
-        page_size = 16;       # HERE
-        readsize  = 256;
-    ;
+memory "eeprom"
+    size      = 256;
+    offset    = 0x1400;
+    page_size = 2;        # HERE
+    readsize  = 256;
+;
 ```
 
 32 for the tinyAVR series,
@@ -141,35 +141,18 @@ However, if you share *abrdude.conf* with other writers,
 Unless `page_size=2` or more, the writer may not work properly.
 This occurs when `page_size=1` is implemented as an implicit `FUSE` rewrite behavior.
 
-## Insufficient memory "data" setting
+## ~~Insufficient memory "data" setting~~
 
-USERROW special write
-`offset` of `memory "data"` must correctly indicate the SRAM start address.
-Please refer to the individual data sheet to determine the value to specify.
-For normal (non-special) USERROW rewrites (to unlocked devices), this setting is not used.
-
-```conf
-     memory "data"
-     # USERROW special write address for locked device.
-         offset = 0x7000;
-     ;
-```
-
-> [Reference: modernAVR peripheral function comparison list - Built-in SRAM amount](https://github.com/askn37/askn37.github.io/wiki/Peripheral#%E5%86%85%E8%94%B5sram%E9%87%8F%E7%9B%AE)
-
-> The default avrdude.conf as of avrdude 7.2 does not have any of these descriptions.
-If you use it, you must add it.
-
-> Even if this specification is missing or incorrect, UPDI4AVR will not return an error, but
-Write operations fail implicitly.
+Current firmware no longer references this information.
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
-Released under the MIT license
+Copyright (c) 2023 askn (K.Sato) multix.jp \
+Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)

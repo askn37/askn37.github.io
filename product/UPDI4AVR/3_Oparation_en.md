@@ -143,7 +143,7 @@ avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
 ### flash
 
 FLASH areas require erasure operations to be exactly in page granularity (`page_size`), so
-Write unit must be 64 / 128 / 512 bytes (device dependent).
+Write unit must be 32 / 64 / 128 / 512 bytes (device dependent).
 In addition, the 128KiB product requires an address width of 17 bits or more.
 For avrdude below 7.x
 The device configuration in avrdude.conf must have the `load_ext_addr` directive.
@@ -160,7 +160,7 @@ Instead, processing speed is more limited than with the `-e` directive.
 
 The EEPROM area can be read and written in 1-byte units.
 However, the page granularity that can be written at once depends on the controller specifications built into the target AVR device, so
-The maximum value should be 8 / 16 / 32 / 64 bytes (device dependent).
+The maximum value should be 1 / 2 / 8 / 32 / 64 bytes (device dependent).
 
 The `-e` device erase operation when the FUSE EEPROM save bit is set is
 Does not erase the entire EEPROM area.
@@ -204,6 +204,8 @@ avrdude main() error: Yikes! Invalid device signature.
 |0x 00 00 00|Unexpected UPDI response, noise on the wiring|
 |0x 1E 41 32|Locked AVR_DA/DB/DD device|
 |0x 1E 41 33|Locked AVR_EA device|
+|0x 1E 41 34|Locked AVR_DU device|
+|0x 1E 41 34|Locked AVR_EB device|
 |0x 1E 6D 30|Locked megaAVR device|
 |0x 1E 74 30|Locked tinyAVR device|
 |0x FF FF FF|Wiring is disconnected or UPDI does not respond (HV control required)|
@@ -263,9 +265,11 @@ Please refer to the individual data sheet for the correct FUSE value (or factory
 
 ```sh
 # Restore FUSE using HV control
-avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
-   -U fuse5:w:0xD9:m -F -e
+avrdude -C avrdide.conf.UPDI4AVR -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
+  -U fuse5:w:0xD9:m -F -e
 ```
+
+> Specify `-C avrdide.conf.UPDI4AVR` to use the attached configuration file. As of `AVRDUDE 7.3`, HV control cannot be enabled in the standard configuration file.
 
 > Even if you intentionally prohibit UPDI control, reading and writing memory in the Bootloader is not prohibited.
 
@@ -313,21 +317,15 @@ avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
    -U lock:w:0x00:m -D
 ```
 
-To unlock a locked device, simultaneously write LOCK_BITS back to the correct value
-You need to erase the entire device with `-e -F`.
+To unlock a locked device, you need to erase the entire device with `-e -F`. Upon successful unlocking, LOCK_BITS will revert to its correct device-dependent default value.
 
 ```sh
-# Unlocking for tinyAVR/megaAVR
+# Unlock device
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
-   -U lock:0xc5:m -e -F
-
-# Unlocking for AVR_DA/DB/DD/EA
-avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
-   -U lock:w:0x5c,0xc5,0xc5,0x5c:m -e -F
+  -eF
 ```
 
-> The unlock value of LOCK_BITS is for tinyAVR / megaAVR series,
-It is different from AVR_DA/DB/DD/EA series.
+> The unlock value of LOCK_BITS is different between the tinyAVR/megaAVR series and the AVR_DA/DB/DD/EA series, but there is no need to be aware of it using the above method.
 
 > HV control is not required for memory operations on locked devices.
 If locking and UPDI prohibition FUSE are performed at the same time, HV control is required to unlock.
@@ -349,40 +347,6 @@ You can use it for purposes you want to memorize.
 
 > USERROW is not affected by erasure with -e.
 
-To write USERROW to a locking device, add
-Each device must have a separate `memory "data"` setting written correctly.
-This is the start address of the installed SRAM area and is listed in the individual data sheet.
-
-```conf
-part parent    ".avrdx"
-    id        = "avr32dd14";
-    desc      = "AVR32DD14";
-    signature = 0x1E 0x95 0x3B;
-
-    memory "flash"
-        size      = 0x8000;
-        offset    = 0x800000;
-        page_size = 0x200;
-        readsize  = 0x100;
-    ;
-
-    memory "eeprom"
-        size      = 0x100;
-        offset    = 0x1400;
-        page_size = 0x10;
-        readsize  = 0x100;
-    ;
-
-    memory "data"
-    # USERROW special write address for locked device.
-        offset    = 0x7000;
-    ;
-;
-```
-
-> [Reference: modernAVR peripheral function comparison list - Built-in SRAM amount](https://github.com/askn37/askn37.github.io/wiki/Peripheral#%E5%86%85%E8%94%B5sram%E9%87%8F%E7%9B%AE)
-
-
 Writing to USERROW on a locked device is as follows:
 Use the quadruplet of `-U -D -F -V` options.
 Write the entire USERROW area in one single operation.
@@ -390,7 +354,7 @@ Write the entire USERROW area in one single operation.
 ```sh
 # Rewrite USERROW
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
-   -U userrow:w:USERROW.hex:i -D -F -V
+  -DFVU userrow:w:USERROW.hex:i
 ```
 
 > `-D` allows the command operation to proceed even without `-e`, and `-V` allows the command operation to proceed even if validation checks fail.
@@ -399,23 +363,11 @@ If you want to initialize and erase USERROW, overwrite the entire file with 0xFF
 
 > Byte-by-byte USERROW rewriting in interactive terminal mode to locked devices is not recommended.
 
-## Supplement for AVR_Ex series
+## Supplement for AVR_EB series
 
-AVR_Ex series support is still experimental as of UPDI4AVR 0.2.5.
-This has some known issues.
+AVR_EB series support is still experimental as of UPDI4AVR 0.2.8. Official support is planned for 0.3.0 or later.
 
-- The first UPDI start timing after target device reset (POR) seems to be different from the previous series.
-For this reason, the expected UPDI response may not be observed.
-- Related to the above, completion of the `chip erase` command after starting HV control cannot be observed.
-- When repeatedly executing commands in terminal mode, there may be no response.
-This is reproduced even if `sleep` is inserted between commands.
-
-In either case, an `RSP_ILLEGAL_MCU_STATE` error interruption occurs.
-Please retry the command execution without turning off the power to the target device.
-
-> Since avrdude 7.2 you can add the `-xrtsdtr=low` command option, which may improve it somewhat.
-
-## avrdude option supplement
+## Supplement for avrdude options
 
 ### -F
 
@@ -488,11 +440,12 @@ Byte-by-byte rewriting (bit-by-bit logical AND) can only be performed in interac
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
-Released under the MIT license
+Copyright (c) 2023 askn (K.Sato) multix.jp \
+Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)

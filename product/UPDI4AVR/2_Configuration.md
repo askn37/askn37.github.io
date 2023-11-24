@@ -15,11 +15,11 @@ UPDI4AVR は JTAG2UPDI 互換ですが、`-p` 指定用の設定を追加すれ�
 programmer
     id                     = "updi4avr";
     desc                   = "JTAGv2 to UPDI bridge";
-    type                   = "jtagmkii_updi";
-    prog_modes             = PM_UPDI;
+    type                   = "jtagmkii_updi";   # jtagmkii_pdi before v7.1
+    prog_modes             = PM_UPDI;           # v7.2 or later
     connection_type        = serial;
     baudrate               = 230400;
-    hvupdi_support         = 0, 1, 2;
+    hvupdi_support         = 0, 1, 2;           # v7.2 or later
 ;
 ```
 
@@ -34,10 +34,6 @@ programmer
 > UPDI4AVR 自体は `-b 1000000` でも動作しますが、
 実際に使用できる最大速度は PC側の処理性能に依存します。
 処理性能が不足していると通信タイムアウトが多発、あるいは中断されます。
-
-> avrdude.conf 7.0 以降の拡張書式に、
-UPDI4AVR は FW=7.53 時点では依存せず、
-その有無に影響されません。
 
 ## memory "boot" 設定の不足
 
@@ -94,16 +90,16 @@ avrdude は後半64KiB領域を 上書きしようとします。
 
 特に AVR_Dx シリーズ以降で EEPROM領域が正しく書けないない場合は、
 `memory "eeprom"`セクションの`page_size`値が小さすぎるか、大きすぎます。
-AVR_DA/DB/DD シリーズでは 16 を、
+AVR_DA/DB/DD シリーズでは 1 か 2 を、
 AVR_EA/EB シリーズでは 8を、それぞれ指定してください。
 
 ```conf
-    memory "eeprom"
-        size      = 256;
-        offset    = 0x1400;
-        page_size = 16;       # HERE
-        readsize  = 256;
-    ;
+memory "eeprom"
+    size      = 256;
+    offset    = 0x1400;
+    page_size = 2;      # HERE
+    readsize  = 256;
+;
 ```
 
 tinyAVR シリーズでは 32 が、
@@ -141,35 +137,18 @@ EEPROM用の緩衝メモリが8バイト（メモリアライメント）であ�
 `page_size=2`以上でなければその書込器が正常動作しない場合があります。
 これは`page_size=1`が暗黙の`FUSE`書換動作として実装されている場合に生じます。
 
-## memory "data" 設定不足
+## ~~memory "data" 設定不足~~
 
-USERROW 特殊書き込みでは
-`memory "data"` の `offset` が正しく SRAM先頭アドレスを示していなければなりません。
-指定する値は個別データシートを参照して決定してください。
-特殊ではない普通の（施錠されていないデバイスへの）USERROW書き換えでは、この設定は使われません。
-
-```conf
-    memory "data"
-    # USERROW special write address for locked device.
-        offset    = 0x7000;
-    ;
-```
-
-> [参考 : modernAVR 周辺機能比較一覧 - 内蔵SRAM量目](https://github.com/askn37/askn37.github.io/wiki/Peripheral#内蔵sram量目)
-
-> avrdude 7.2 時点の規定の avrdude.conf には、これらの記述は一切ありません。
-使用する場合は必ず追記する必要があります。
-
-> この指定がなかったり誤っていても UPDI4AVR はエラーを返しませんが、
-書込操作は暗黙のうちに失敗します。
+現在のファームウェアはこの情報を参照しなくなりました。
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
+Copyright (c) 2023 askn (K.Sato) multix.jp \
 Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)
