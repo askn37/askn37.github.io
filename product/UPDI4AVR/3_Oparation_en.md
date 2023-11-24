@@ -306,7 +306,7 @@ Please prepare separately or solder the jumper pin.
 
 If you rewrite the LOCK_BITS area to a non-standard value (apart from rewriting FUSE), UPDI control will remain enabled,
 You can prohibit reading and writing the memory of the target AVR device.
-This prevents data extraction from flash or his EEPROM area
+This prevents data extraction from flash or EEPROM areas.
 Can be used for proprietary purposes.
 
 > Intentionally locking the device does not prevent memory reading and writing via the Bootloader.
@@ -315,17 +315,25 @@ Can be used for proprietary purposes.
 # Break LOCK_BITS and lock the device
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
    -U lock:w:0x00:m -D
-```
+````
 
-To unlock a locked device, you need to erase the entire device with `-e -F`. Upon successful unlocking, LOCK_BITS will revert to its correct device-dependent default value.
+To unlock a locked device, you need to erase the entire device with `-e -F`. If the lock is successfully unlocked, it will remain unlocked temporarily until the power is turned off. To permanently unlock it, rewrite LOCK_BITS to the default value.
 
 ```sh
 # Unlock device
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
-  -eF
-```
+   -eF
 
-> The unlock value of LOCK_BITS is different between the tinyAVR/megaAVR series and the AVR_DA/DB/DD/EA series, but there is no need to be aware of it using the above method.
+# Permanently unlocked tinyAVR and megaAVR
+avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
+   -eFU lock:w:0xc5:m
+
+# For permanently unlocked AVR_Dx/Ex
+avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
+   -eFU lock:w:0x5c,0xc5,0xc5,0x5c:m
+````
+
+> The permanent unlock value of LOCK_BITS is different between tinyAVR/megaAVR series and AVR_DA/DB/DD/EA series.
 
 > HV control is not required for memory operations on locked devices.
 If locking and UPDI prohibition FUSE are performed at the same time, HV control is required to unlock.
