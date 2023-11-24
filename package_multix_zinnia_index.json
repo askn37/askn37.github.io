@@ -13,7 +13,7 @@
           "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.2.zip",
           "boards" : [
             {
-              "name" : "Hardware model: MZU2306B(ATtiny1626) Firmware: 7.53"
+              "name" : "Hardware model: MZU2306B(ATtiny1626) Firmware: 6.34"
             }
           ],
           "category" : "Contributed",
