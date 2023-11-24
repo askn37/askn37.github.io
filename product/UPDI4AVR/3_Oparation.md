@@ -312,20 +312,28 @@ LOCK_BITS領域を規定外の値に書き換えると（FUSE書換とは別に�
 > 意図的にデバイスを施錠しても、Bootloader 経由でのメモリ読み書きは禁止されません。
 
 ```sh
-# LOCK_BITSを壊して デバイス施錠
+# LOCK_BITSを壊して デバイスを施錠
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
   -U lock:w:0x00:m -D
 ```
 
-施錠されたデバイスを解錠するには、`-e -F`でのデバイス全体消去が必要です。解錠に成功するとLOCK_BITSはデバイス依存の正しい既定値に戻ります。
+施錠されたデバイスを解錠するには、`-e -F`でのデバイス全体消去が必要です。解錠に成功すると、電源を切るまで一時的に解錠状態が維持されます。永続的に解錠するには LOCK_BITSを既定値に書き直してください。
 
 ```sh
 # デバイス解錠
 avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
   -eF
+
+# 永続的解錠 tinyAVR と megaAVR の場合
+avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
+  -eFU lock:w:0xc5:m
+
+# 永続的解錠 AVR_Dx/Ex の場合
+avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
+  -eFU lock:w:0x5c,0xc5,0xc5,0x5c:m
 ```
 
-> LOCK_BITS の解錠値は、tinyAVR / megaAVR シリーズと、AVR_DA/DB/DD/EA シリーズとでは異なりますが、上記の方法では意識する必要はありません。
+> LOCK_BITS の永続的解錠値は、tinyAVR / megaAVR シリーズと、AVR_DA/DB/DD/EA シリーズとでは異なります。
 
 > 施錠されているデバイスへのメモリ操作に、HV制御は必須ではありません。
 施錠と UPDI禁止 FUSEを同時に行っていた場合は、解錠には HV制御が必要です。
@@ -361,7 +369,7 @@ avrdude -p avr32dd14 -c updi4avr -P /dev/cu.wchusbserial230 \
 
 USERROWを初期化消去したい場合は、全体を 0xFF で上書きしてください。
 
-> 施錠されたデバイスへの対話ターミナルモードでのバイト単位 USERROW 書き換えは推奨されません。
+> 施錠されたデバイスへの対話ターミナルモードでのバイト単位 USERROW 書き換えは推奨されません。一方で`erase userrow`コマンドを用いることで初期状態に戻せます。
 
 ## AVR_EB シリーズの補足
 
