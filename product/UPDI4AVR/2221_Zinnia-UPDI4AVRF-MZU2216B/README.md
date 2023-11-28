@@ -123,12 +123,12 @@
 
 ### 部品実装イメージ
 
-[<img src="2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg)
-[<img src="2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_bottom.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_bottom.svg)
+[<img src="https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_top.svg)
+[<img src="https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_bottom.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_bottom.svg)
 
 ### レイヤー構成
 
-[<img src="2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg)
+[<img src="https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg" />](https://askn37.github.io/product/UPDI4AVR/2221_Zinnia-UPDI4AVRF-MZU2216B/Zinnia-UPDI4AVRF-MZU2216B_layers.svg)
 
 > 色付レイヤーをクリックするとそのレイヤーが非表示になる。黒地をクリックすると初期状態に戻る。
 
@@ -157,7 +157,7 @@
 - __昔は特に困ってなかった__
   - これを作ろうと思う以前は、普通に mEDBG / microUPDI を使っていた。
   - 書込が遅かったり HV書込も出来なかったが、特に不満もなかった。UARTパススルー便利だし。
-  - ところが出来心で AVR128DB32 を入手したら状況一変。__UPDIバージョンが違って全く書けない！__
+  - ところが出来心で AVR128DB32 を入手したら状況一変。__NVMCTRLバージョンが違って全く書けない！__
   - pyupdi（当時）は python バージョン違いで環境依存性が強く、なかなかうまく動かない。
     SerialUPDI の存在はまだ知らなかった。
   - *avrdude* のソース等を参考に（この頃7.0では SerialUPDI 対応が始まっていた）\
@@ -172,7 +172,7 @@
   - なのでそれに対応している tinyAVR / megaAVR の USART を使うと
     IOレジスタ設定するだけで簡単に通信できてしまう。
     - 旧世代AVRはそういう用途に対応していないから、過去みんな苦労して実装してたわけですな。
-  - 最初は *Arduino UNO WiFi Rev.2* に拡張シールドを載せる形式を志向。
+  - 最初は *Arduino UNO WiFi Rev.2* に拡張シールドを載せる形式を指向。
   - けどコレ国内入手性が低いので、やっぱり自分専用状態に違いない。
   - それで *Arduino Nano Every* ベースを考えてみるが。。。これのオンボード書込器がすごく変。
   - 調べてみると JTAG2UPDI 互換と見せかけて 1200bps制御が必要とか、__誰だこれ考えた/採用したヤツ（怒）__
@@ -189,7 +189,7 @@
     当初から Arduino API互換は放棄してインラインアセンブリも辞さないピーキーな方向性を志向。
   - そこから半年、__ハードもソフトもプログラマライタも全部自作スクラッチ__ で全部通した\
     __modernAVR__ 開発環境がひととおり揃うことになってしまった。
-  - 途中寄り道して ATTiny10 向けの環境整備と [__TPI4AVR__](../TPI4AVR/) も作ってしまったが。
+  - 途中寄り道して ATTiny10 向けの環境整備と [__TPI4AVR__](../../TPI4AVR/) も作ってしまったが。
 - __今後の課題__
   - ボタンと LED が大して役に立ってない。各1個（TEST & STAT）で十分ぽい。
   - Rev.1 は自分自身で自分のファームウェアを書き換えることが出来ない。
@@ -210,11 +210,12 @@
 
 ## Copyright and Contact
 
-Twitter: [@askn37](https://twitter.com/askn37) \
+Twitter(X): [@askn37](https://twitter.com/askn37) \
+BlueSky Social: [@multix.jp](https://bsky.app/profile/multix.jp) \
 GitHub: [https://github.com/askn37/](https://github.com/askn37/) \
 Product: [https://askn37.github.io/](https://askn37.github.io/)
 
-Copyright (c) askn (K.Sato) multix.jp \
+Copyright (c) 2023 askn (K.Sato) multix.jp \
 Released under the MIT license \
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php) \
 [https://www.oshwa.org/](https://www.oshwa.org/)
