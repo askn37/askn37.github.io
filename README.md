@@ -16,8 +16,15 @@ __WARNING: Arduino compatible API is not provided.__
   [`https://askn37.github.io/package_multix_zinnia_index.json`](https://askn37.github.io/package_multix_zinnia_index.json)
 - Then search for `multix` in Boards Manager.
 - Select the desired architecture and install.\
-  `megaAVR` / `modernAVR` / `reduceAVR`
+  `megaAVR` / `modernAVR` / `reduceAVR` / `UPDI4AVR`
 - [For more information](https://github.com/askn37/askn37.github.io/wiki/InformationSDK) (ja-JP)
+
+## Firmware "JTAG2UPDI" (Clone) : UPDI NVM Reader/Writer Firmware for Arduino Compatible
+
+- JTAG2UPDI clone with support for NVMCTRL versions 0, 2, 3, and 5
+- Installation board: Arduino UNO Rev.3, UNO Wifi Rev.2 etc.
+- Target AVR: tinyAVR-0/1/2, megaAVR-0, AVR_DA/DB/DD/EA/EB
+- [For repository](https://github.com/askn37/jtag2updi/)
 
 ## Product "UPDI4AVR" : UPDI Programmer Writer with High-Voltage Activation
 
