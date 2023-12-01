@@ -185,10 +185,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:3fc5cbf982d6a7949a39a49d985192ad00a2f7f101f5ba2e3f868ec9678d480a",
+          "checksum" : "SHA-256:cbf02385a8ce5c023bec58e05af58a1d5d28552f5a022985925f1ef1f14ccbcf",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "252369",
+          "size" : "252365",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
