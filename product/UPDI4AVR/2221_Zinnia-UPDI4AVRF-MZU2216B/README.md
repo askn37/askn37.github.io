@@ -8,12 +8,11 @@
   - 既発売中の __UPDI方式 AVR全品種__ に対応。
     - megaAVR-0 系統
     - tinyAVR-0/1/2 系統
-    - AVR DA/DB/DD 系統
+    - AVR DA/DB/DD/DU/EA/EB 系統
 - 基板サイズは 66x32mm
   - FRiSKケースにちょうど入るサイズ。
   - 4隅に M3マウントホール4個。TAMIYA ユニバーサルプレート適合ピッチ。
-- *avrdude* 6.8/7.0対応
-  - 7.0 ならば 1.5Mbps 高速転送可能
+- *avrdude* 6.3/7.3対応
 - WCH CH340E + USB(2.0) Type-C で PCと接続
 - ATtiny824 採用
 - JTAG2UPDI 上位互換

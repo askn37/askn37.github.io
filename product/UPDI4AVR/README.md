@@ -8,8 +8,8 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 
 - UPDI制御方式の新世代 AVR 8 bit MCU 専用 UPDIプログラマ
 - Flash / EEPROM / FUSE等の書換・バックアップ・検証
-- tinyAVR-0/1/2、megeAVR-0、AVR DA/DB/DD/EA シリーズ専用
-- tinyAVR-0/1/2、AVR_DD/EA シリーズの HV（高電圧）制御
+- tinyAVR-0/1/2、megeAVR-0、AVR DA/DB/DD/DU/EA/EB シリーズ専用
+- tinyAVR-0/1/2、AVR_DD/DU/EA/EB シリーズの HV（高電圧）制御
 - 対象AVRデバイスへのリセットボタン機能の提供
 - LOCK_BIT 施錠・開錠
 - 施錠されたAVRデバイスへの USERROW 特殊書込
@@ -66,17 +66,20 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
   - AVR16DD20 AVR32DD20 AVR64DD20
   - AVR16DD28 AVR32DD28 AVR64DD28
   - AVR16DD32 AVR32DD32 __AVR64DD32__
+- AVR_DU 系統（HV=8.2V to PF6）（2023/12時点で未発売）
+  - *AVR64DD28*
+  - *AVR64DD32*
 - AVR_EA 系統（HV=8.2V to PF6）
   - AVR16EA28 AVR32EA28 AVR64EA28
   - AVR16EA32 AVR32EA32 __AVR64EA32__
   - AVR16EA48 AVR32EA48 AVR64EA48
-- AVR_EB 系統（2023/07時点で未発売・対応予定）
+- AVR_EB 系統（HV=8.2V to PF6）
   - *AVR16EB14*
   - *AVR16EB20*
   - *AVR16EB28*
   - *AVR16EB32*
 
-> __太字__ は動作検証済、*斜体* は今後対応予定
+> __太字__ は動作検証済、*斜体* は暫定対応
 
 ## 諸元
 

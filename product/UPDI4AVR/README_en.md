@@ -8,8 +8,8 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 
 - New generation AVR 8 bit MCU dedicated program writing device with UPDI programmer.
 - Rewriting/backup/verification of Flash/EEPROM/FUSE, etc.
-- For tinyAVR-0/1/2, megeAVR-0, AVR DA/DB/DD/EA series only
-- HV (high voltage) control for tinyAVR-0/1/2, AVR_DD/EA series
+- For tinyAVR-0/1/2, megeAVR-0, AVR DA/DB/DD/DU/EA/EB series only
+- HV (high voltage) control for tinyAVR-0/1/2, AVR_DD/DU/EA/EB series
 - Providing reset button function to target AVR devices
 - LOCK_BIT Lock/unlock
 - USERROW special write to locked AVR device
@@ -66,17 +66,20 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
    - AVR16DD20 AVR32DD20 AVR64DD20
    - AVR16DD28 AVR32DD28 AVR64DD28
    - AVR16DD32 AVR32DD32 __AVR64DD32__
+- AVR_DU series (HV=8.2V to PF6) (Unreleased as of 2023/12)
+   - *AVR64DD28*
+   - *AVR64DD32*
 - AVR_EA series (HV=8.2V to PF6)
    - AVR16EA28 AVR32EA28 AVR64EA28
    - AVR16EA32 AVR32EA32 __AVR64EA32__
    - AVR16EA48 AVR32EA48 AVR64EA48
-- AVR_EB series (not released as of 2023/07 scheduled to be supported)
+- AVR_EB series (HV=8.2V to PF6)
    - *AVR16EB14*
    - *AVR16EB20*
    - *AVR16EB28*
    - *AVR16EB32*
 
-> __bold__ indicates operation has been verified, *italics* indicates future support
+> __Bold__ indicates operation has been verified, *Italics* indicate preliminary support
 
 ## Specifications
 

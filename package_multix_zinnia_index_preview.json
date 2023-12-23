@@ -241,10 +241,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:fcbdfaa4be39049e902f4a2e0d7db366370ea4efdb0c89d13c3524287ed609b2",
+          "checksum" : "SHA-256:fb80d98e9e6b26729605ae9c05dbc2f8d2afb1945d615296d7962bf821d888bf",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "253388",
+          "size" : "254261",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -574,10 +574,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:8ad76a065fcac846ed7322297457b09e0d9ea13f56322cba29534523c88462d8",
+          "checksum" : "SHA-256:0fec7a00ea536f4da94b102925f67e4870eb41e959b9b3ab577656a866f71f23",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "655010",
+          "size" : "656771",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -610,7 +610,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -650,7 +650,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -690,7 +690,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -730,7 +730,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -770,7 +770,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -810,7 +810,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -850,7 +850,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -890,7 +890,7 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
@@ -930,14 +930,14 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "comming soon: AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:26e3e5f708439cfd0b2da5e87b886e761aeb311fe5426754ee817dad64761a79",
+          "checksum" : "SHA-256:58cc4037244000c0b42b62c70ef23fb6012918bc514078a981d3ffe91d828b0d",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "708170",
+          "size" : "721661",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -1230,10 +1230,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:a91ef9ad53849712e1ff3dd0b64dfa852d9b267f7554489753e094e08635df28",
+          "checksum" : "SHA-256:ac19f2d121e8df3c45ef8b727a62948a4663383a1441c0a585803409fe61c2a8",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "74834",
+          "size" : "74884",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
