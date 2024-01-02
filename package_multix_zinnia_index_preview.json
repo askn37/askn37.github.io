@@ -33,7 +33,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.2.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.2.zip",
           "version" : "0.2.2"
         },
         {
@@ -61,7 +61,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.3.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.3.zip",
           "version" : "0.2.3"
         },
         {
@@ -89,7 +89,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.4.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.4.zip",
           "version" : "0.2.4"
         },
         {
@@ -117,7 +117,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.5.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.5.zip",
           "version" : "0.2.5"
         },
         {
@@ -145,7 +145,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.6.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.6.zip",
           "version" : "0.2.6"
         },
         {
@@ -173,7 +173,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.7.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.7.zip",
           "version" : "0.2.7"
         },
         {
@@ -201,7 +201,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.8.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.8.zip",
           "version" : "0.2.8"
         },
         {
@@ -229,7 +229,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.9.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.9.zip",
           "version" : "0.2.9"
         },
         {
@@ -241,10 +241,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:aca19d5cd71b647ebea373a7b9294acb4c0b0121dc5423eb735824b232f672d9",
+          "checksum" : "SHA-256:b209d1a54ab624cef79f54268278e4aa4f06a131085958774f1d2d091f9ef3a6",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "256685",
+          "size" : "256754",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -257,7 +257,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.10.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.10.zip",
           "version" : "0.2.10"
         },
         {
@@ -574,10 +574,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:d231791787ecfaef96dc478038b18f98e6910fc65cd7f5646c93e901ba24910f",
+          "checksum" : "SHA-256:5d54c0e74752f83e9b358a71cf12c59538ce0e6014739d9cc5f5b40b9581c066",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "658768",
+          "size" : "659191",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -630,7 +630,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.2.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.2.zip",
           "version" : "0.2.2"
         },
         {
@@ -670,7 +670,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.3.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.3.zip",
           "version" : "0.2.3"
         },
         {
@@ -710,7 +710,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.4.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.4.zip",
           "version" : "0.2.4"
         },
         {
@@ -750,7 +750,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.5.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.5.zip",
           "version" : "0.2.5"
         },
         {
@@ -790,7 +790,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.6.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.6.zip",
           "version" : "0.2.6"
         },
         {
@@ -830,7 +830,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.7.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.7.zip",
           "version" : "0.2.7"
         },
         {
@@ -870,7 +870,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.8.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.8.zip",
           "version" : "0.2.8"
         },
         {
@@ -910,7 +910,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.9.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.9.zip",
           "version" : "0.2.9"
         },
         {
@@ -934,10 +934,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:fa5eee1dc5e622580198ab733f370beb28ef3ed66480742a694a7c7266d09b2b",
+          "checksum" : "SHA-256:e808279b3be42f3454e85fcf66c4eaba2796febab70db2c39c59d0165f85a753",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "726834",
+          "size" : "727257",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -950,7 +950,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.10.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.10.zip",
           "version" : "0.2.10"
         },
         {
@@ -987,7 +987,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.2.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.2.zip",
           "version" : "0.2.2"
         },
         {
@@ -1024,7 +1024,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.3.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.3.zip",
           "version" : "0.2.3"
         },
         {
@@ -1061,7 +1061,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.4.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.4.zip",
           "version" : "0.2.4"
         },
         {
@@ -1098,7 +1098,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.6.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.6.zip",
           "version" : "0.2.6"
         },
         {
@@ -1135,7 +1135,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.7.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.7.zip",
           "version" : "0.2.7"
         },
         {
@@ -1172,7 +1172,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.8.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.8.zip",
           "version" : "0.2.8"
         },
         {
@@ -1209,7 +1209,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.9.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.9.zip",
           "version" : "0.2.9"
         },
         {
@@ -1230,10 +1230,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:ac19f2d121e8df3c45ef8b727a62948a4663383a1441c0a585803409fe61c2a8",
+          "checksum" : "SHA-256:99e2b4b669a52aa447adb08236cad0bc4c0aa8233d8d7c14dcc8f0dfa7712a6b",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "74884",
+          "size" : "74953",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -1246,7 +1246,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.10.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.2.10.zip",
           "version" : "0.2.10"
         }
       ],
@@ -1259,21 +1259,21 @@
               "checksum" : "SHA-256:66a8128e88a805ebbe36bc0c992b03ee58deb612d651202f8993bc25059371dc",
               "host" : "x86_64-apple-darwin12",
               "size" : "58660923",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-darwin_x86_64.tar.gz"
+              "url" : "https://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-darwin_x86_64.tar.gz"
             },
             {
               "archiveFileName" : "7.3.0-avr8-gnu-toolchain-231214-windows_x86_64.tar.gz",
               "checksum" : "SHA-256:0f43ce7052d44cf05552a2bf49962a73ee41f1ebac6f4cae8d63e01d553994a1",
               "host" : "i686-mingw32",
               "size" : "53215569",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-windows_x86_64.tar.gz"
+              "url" : "https://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-windows_x86_64.tar.gz"
             },
             {
               "archiveFileName" : "7.3.0-avr8-gnu-toolchain-231214-linux_x86_64.tar.gz",
               "checksum" : "SHA-256:c1e26e5f8759ac9d8be08c031221a5ecd59e9582ec5dad39efb5635f63c7276c",
               "host" : "x86_64-linux-gnu",
               "size" : "52760705",
-              "url" : "http://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-linux_x86_64.tar.gz"
+              "url" : "https://askn37.github.io/archives/7.3.0-avr8-gnu-toolchain-231214-linux_x86_64.tar.gz"
             }
           ],
           "version" : "7.3.0-avr8-gnu-toolchain"
@@ -1286,48 +1286,48 @@
               "checksum" : "SHA-256:b5b88e4f52c0edb861f5ae54acbd752f9ecd562a4db4d821ab8c276ee5696dab",
               "host" : "arm-linux-gnueabihf",
               "size" : "1243922",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARMv6.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARMv6.tar.gz"
             },
             {
               "archiveFileName" : "avrdude_7.2-arduino.1_Linux_ARM64.tar.gz",
               "checksum" : "SHA-256:a3862e6a38668c2688dc0822b16c3f824612cc606259b6813bc5778d36c92ba9",
               "host" : "aarch64-linux-gnu",
               "size" : "1348250",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARM64.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARM64.tar.gz"
             },
             {
               "archiveFileName" : "avrdude_7.2-arduino.1_macOS_64bit.tar.gz",
               "checksum" : "SHA-256:256cbde856714a18c11b4c99f6b00eed65e4208c92425fa9cfd75a5bdfb6ab09",
               "host" : "x86_64-apple-darwin12",
               "size" : "928946",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_macOS_64bit.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_macOS_64bit.tar.gz"
             },
             {
               "archiveFileName" : "avrdude_7.2-arduino.1_Linux_64bit.tar.gz",
               "checksum" : "SHA-256:25e1b568757d9a58b9663e4493ffc04b9e6d690535c9c1e6c1db7d1ecffb5eff",
               "host" : "x86_64-linux-gnu",
               "size" : "1256881",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_64bit.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_64bit.tar.gz"
             },
             {
               "archiveFileName" : "avrdude_7.2-arduino.1_Linux_32bit.tar.gz",
               "checksum" : "SHA-256:86a811f6ba2bebbb717a524fcff495f0ebb146abcd15d341a10d867b8e8c83fd",
               "host" : "i686-linux-gnu",
               "size" : "1252284",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_32bit.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_32bit.tar.gz"
             },
             {
               "archiveFileName" : "avrdude_7.2-arduino.1_Windows_32bit.tar.gz",
               "checksum" : "SHA-256:5536c9fcb41f4a36aa55b3711a0d74943a401261b15cc8aae2473c30ff292021",
               "host" : "i686-mingw32",
               "size" : "1682746",
-              "url" : "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Windows_32bit.tar.gz"
+              "url" : "https://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Windows_32bit.tar.gz"
             }
           ],
           "version" : "7.2-arduino.1"
         }
       ],
-      "websiteURL" : "http://askn37.github.io/"
+      "websiteURL" : "https://askn37.github.io/"
     }
   ]
 }
