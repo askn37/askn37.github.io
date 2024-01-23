@@ -241,10 +241,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:572ad3e0a2c495dec9dce492fdd6432ddfbd8a0e352e365848012357633e7adb",
+          "checksum" : "SHA-256:188b460c9842f16b0207a1f228df93b59baf4deaa011dbe13ec5614f24ed1f6b",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "261488",
+          "size" : "262583",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -574,10 +574,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:408e3553e685e419f96252b0837595e6d3efc449c1e00d91de6eaf628ef8a000",
+          "checksum" : "SHA-256:d379f9f3beda872a54396fdf1e3fb7698dd7671bfb17b8a29df9c77abd1bcb2b",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "679277",
+          "size" : "680138",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -934,10 +934,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:3dfc5924193b5eb8aece3363d781e164129c969d71f562b69d565a7fefeffaa2",
+          "checksum" : "SHA-256:2e2bd489dfa56378b913896cb4ee6f726cfe6a5a2509103e54676dcc00b3a0af",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "749012",
+          "size" : "749874",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
