@@ -610,7 +610,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -650,7 +653,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -690,7 +696,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -730,7 +739,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -770,7 +782,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -810,7 +825,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -850,7 +868,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -890,7 +911,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
@@ -930,7 +954,10 @@
               "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
             },
             {
-              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32, AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
             }
           ],
           "category" : "Contributed",
