@@ -19,6 +19,12 @@ __WARNING: Arduino compatible API is not provided.__
   `megaAVR` / `modernAVR` / `reduceAVR` / `UPDI4AVR`
 - [For more information](https://github.com/askn37/askn37.github.io/wiki/InformationSDK) (ja-JP)
 
+## OpenData
+
+We publish downloadable data that anyone can use, modify, and redistribute freely.
+
+- [Click Here](product/opendata)
+
 ## Firmware "JTAG2UPDI" (Clone) : UPDI NVM Reader/Writer Firmware for Arduino Compatible
 
 - JTAG2UPDI clone with support for NVMCTRL versions 0, 2, 3, and 5
