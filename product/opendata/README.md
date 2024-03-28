@@ -17,7 +17,8 @@ Downloadable Zip files can be manufactured immediately with JLCPCB, Erectrow, Fu
 > In the case of JLCPCB, 5 pieces can be manufactured for $2.0, and if OCS NEP is selected as the shipping company, the shipping cost to Japan will only be $0.98.
 
 - [Download ZIP](2405_ARDUNIV.zip)
-- [Design information (for PCBE)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/)
+- [Schematic Design (for PCBE)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/)
+- [Board Dimension (PDF)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/2405_ARDUNIV.pdf)
 
 ## Copyright and Contact
 
