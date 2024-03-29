@@ -12,13 +12,14 @@ Arduino UNO Rev.3 規格の標準的なユニバーサル基板ガーバーデ�
 Standard universal board Gerber data for Arduino UNO Rev.3 standard.
 Downloadable Zip files can be manufactured immediately with JLCPCB, Erectrow, FusionPCB, etc. \
 
-> [!Tip]
+> [!TIP]
 > JLCPCBの場合、2ドルで5枚が製造でき、配送業者にOCS NEPを選択すると日本向けの送料は 0.98 ドルしか掛からない。つまり送料込み500円以下だろう。クレジットカードが使えるなら、国内のオンライン店舗より安上がりな場合が多い。\
 > In the case of JLCPCB, 5 pieces can be manufactured for $2.0, and if OCS NEP is selected as the shipping company, the shipping cost to Japan will only be $0.98.
 
+![Board Dimension (PDF)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/2405_ARDUNIV.pdf)
+
 - [Download ZIP](2405_ARDUNIV.zip)
 - [Schematic Design (for PCBE)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/)
-- [Board Dimension (PDF)](https://github.com/askn37/askn37.github.io/tree/main/product/opendata/2405_ARDUNIV/2405_ARDUNIV.pdf)
 
 ## Copyright and Contact
 
