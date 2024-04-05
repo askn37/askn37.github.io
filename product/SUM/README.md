@@ -15,6 +15,7 @@ Microchip AVRシリーズ（UPDI採用世代）用のプログラミング機能
 - ESD保護対策 USB 2.0 TYPE-Cコネクタと、WCH CH340X シリアル変換チップ
   - Windows Update対応のドライバーインストール
   - macosは標準対応
+  - UART時最大2Mbps、プログラム時最大450kbps
 - プッシュスイッチまたは RTS信号での、ターゲットAVRリモートリセット操作
   - リセット操作は UPDI通信で行われるため、物理リセットピンが未設定の tinyAVRシリーズに対しても有効[^3]
   - RTS信号での自動リセットにより UARTモードで、ターゲットAVRのブートローダーを Arduino IDEで起動可能[^4]
@@ -89,7 +90,7 @@ Microchip AVRシリーズ（UPDI採用世代）用のプログラミング機能
 
 ## AVR-ICSP端子配列
 
-![ICSP-Pinout](https://askn37.github.io/product/SUM/images/Image-1.drawio.svg)
+![ICSP-Pinout](https://askn37.github.io/product/SUM/Images/Image-1.drawio.svg)
 
 > HV機能未対応である以外は、UPDI4AVRと同一機能\
 > 端子ピッチは 2.54mm（100mil）
