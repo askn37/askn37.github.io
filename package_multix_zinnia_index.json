@@ -1018,6 +1018,49 @@
           "version" : "0.2.10"
         },
         {
+          "architecture" : "modernAVR",
+          "archiveFileName" : "Multix-Zinnia-modernAVR-0.2.11.zip",
+          "boards" : [
+            {
+              "name" : "AVR DA Series AVR32DA28, AVR64DA28, AVR128DA28, AVR32DA32, AVR64DA32, AVR128DA32, AVR32DA48, AVR64DA48, AVR128DA48, AVR64DA64, AVR128DA64"
+            },
+            {
+              "name" : "AVR DB Series AVR32DB28, AVR64DB28, AVR128DB28, AVR32DB32, AVR64DB32, AVR128DB32, AVR32DB48, AVR64DB48, AVR128DB48, AVR64DB64, AVR128DB64"
+            },
+            {
+              "name" : "AVR DD Series AVR16DD14, AVR32DD14, AVR64DD14, AVR16DD20, AVR32DD20, AVR64DD20, AVR16DD28, AVR32DD28, AVR64DD28, AVR16DD32, AVR32DD32, AVR64DD32"
+            },
+            {
+              "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
+            },
+            {
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:41656e8e17a52013acadbdedfc1bf9f84373eb9f589812f043249c13338b69dd",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [modernAVR]",
+          "size" : "750298",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.11.zip",
+          "version" : "0.2.11"
+        },
+        {
           "architecture" : "reduceAVR",
           "archiveFileName" : "Multix-Zinnia-reduceAVR-0.2.2.zip",
           "boards" : [
