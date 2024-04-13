@@ -594,6 +594,43 @@
           "version" : "0.2.10"
         },
         {
+          "architecture" : "megaAVR",
+          "archiveFileName" : "Multix-Zinnia-megaAVR-0.2.11.zip",
+          "boards" : [
+            {
+              "name" : "megaAVR-0 Series ATmega808, ATmega1608, ATmega3208, ATmega4808, ATmega809, ATmega1609, ATmega3209, ATmega4809"
+            },
+            {
+              "name" : "tinyAVR-0 Series ATtiny202, ATtiny402, ATtiny204, ATtiny404, ATtiny804, ATtiny1604, ATtiny406, ATtiny806, ATtiny1606, ATtiny807, ATtiny1607"
+            },
+            {
+              "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
+            },
+            {
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:a9fa4242db5e43dbd83dc80776a493afad3b3c726fda81244ec2b4a25a04ed30",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [megaAVR]",
+          "size" : "680769",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.11.zip",
+          "version" : "0.2.11"
+        },
+        {
           "architecture" : "modernAVR",
           "archiveFileName" : "Multix-Zinnia-modernAVR-0.2.2.zip",
           "boards" : [

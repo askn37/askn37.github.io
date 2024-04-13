@@ -9,34 +9,45 @@ Microchip AVRシリーズ（UPDI採用世代）用のプログラミング機能
   - DTR信号論理は Arduino IDE 互換で、シリアルモニター使用時は DTR=LOW、プログラム時は DTR=HIGH
   - DIPスイッチで自動切替を無効にし、UARTまたは UPDIいずれかのモードに常時固定することも可能
 - SerialUPDIプロトコルによる UPDIプログラミング
-  - AVRDUDE 7.3以降を推奨[^1][^2]
+  - AVRDUDE 7.3以降を推奨 *1 *2
 - Arduinoブートローダープロトコルによる シリアルプログラミング
   - urbootプロトコルも使用可能
-- ESD保護対策 USB 2.0 TYPE-Cコネクタと、WCH CH340X シリアル変換チップ
+- ESD/ESI保護対策付き USB 2.0 TYPE-Cコネクタと、WCH CH340X シリアル変換チップ
   - Windows Update対応のドライバーインストール
-  - macosは標準対応
+  - 現行 macos標準対応
   - UART時最大2Mbps、プログラム時最大450kbps
-- プッシュスイッチまたは RTS信号での、ターゲットAVRリモートリセット操作
-  - リセット操作は UPDI通信で行われるため、物理リセットピンが未設定の tinyAVRシリーズに対しても有効[^3]
-  - RTS信号での自動リセットにより UARTモードで、ターゲットAVRのブートローダーを Arduino IDEで起動可能[^4]
-- ターゲットAVRへの電源供給は、DIPスイッチによる5Vと3.3Vから選択[^5]
-- ターゲットコネクタの排他的選択取り付け（要ハンダ付け）により、複数の接続状態が選択可能[^6]
-  - 細ピンヘッダによるブレッドボードへの脱着取り付け[^7]
-  - 水平または垂直2x3Pコネクタ[^8]による IDC6ピンフラットケーブル接続
-  - 水平または垂直1x6Pコネクタ[^9]による 6Pフラットケーブルまたは（バラ線）ジャンパーワイヤー接続
+- 押釦スイッチまたは RTS信号での、ターゲットAVRリモートリセット操作
+  - これは UPDI経由で行われるため、物理リセットピン無効の tinyAVRシリーズにも有効 *3
+  - 自動および UART固定モードでは、RTS信号の検出によりターゲットAVRのブートローダーを Arduino IDEで起動可能 *4
+- ターゲットAVRへの電源供給は、DIPスイッチによる5Vと3.3Vから選択 *5
+- ターゲットコネクタの排他的選択取り付け（要ハンダ付け）により、複数の接続が選択可能 *6
+  - 細ピンヘッダによるブレッドボードへの脱着取り付け *7
+  - 水平または垂直2x3Pコネクタによる IDC/6Pフラットケーブル接続 *8
+  - 水平または垂直1x6Pコネクタによる Dupont/6Pフラットケーブルまたはバラ線ジャンパーワイヤー接続 *9
   - ピンヘッダによるユニバーサル基板への直接固定
-  - M3マウントホールによる TAMIYAユニバーサルボードへの固定[^10]
+  - M3マウントホールによる TAMIYAユニバーサルボードへの固定 *10
 
-[^1]: 起動オプションに`-cserialupdi`と`-xrtsdtr=high`が必要\
-[^2]: 7.2以前は AVR-EA/EB/DUシリーズ非対応\
-[^3]: UPDIピン機能とRESETピン機能の両方が、FUSEで無効化されている場合は非対応\
-[^4]: UPDI固定モードでは RTS信号操作は無視\
-[^5]: 5Vは最大1A、3.3Vは最大300mA\
-[^6]: 水平2x3Pコネクタと他のコネクタ／ピンヘッダは同時装着不可\
-[^7]: 電源レーンは排他選択で正位置／半穴違いに対応\
-[^8]: MIL/6P AVR-ICSP UPDI仕様、ただし microUPDI仕様とはUARTモード非互換\
-[^9]: SIP/6P 512643配列、28P以上のICパッケージと直結可能な同一配列\
-[^10]: 基板サイズ 31x41mm、取付ピッチ 25x35mm
+> *1 起動オプションに`-cserialupdi`と`-xrtsdtr=high`が必要\
+> *2 7.2以前は AVR-EA/EB/DUシリーズ非対応\
+> *3 UPDIピン機能とRESETピン機能の両方が、FUSEで無効化されている場合は非対応\
+> *4 UPDI固定モードでは RTS信号無視\
+> *5 5Vは最大1A、3.3Vは最大300mA、ターゲット側からの給電も可能\
+> *6 水平2x3Pコネクタと他のコネクタ／ピンヘッダは同時装着不可\
+> *7 電源レーンは排他選択で正位置／半穴ピッチ違いに対応\
+> *8 MIL/6P AVR-ICSP UPDI仕様、ただし microUPDI仕様とはUARTモード非互換\
+> *9 SIP/6P 512643配列、28P以上のICパッケージと直結可能な同一配列\
+> *10 基板サイズ 31x41mm、取付ピッチ 25x35mm
+
+## 使用例
+
+## AVR-ICSP端子配列
+
+![ICSP-Pinout](https://askn37.github.io/product/SUM/Images/Image-1.drawio.svg)
+
+> HTCR=Host-TxD to Client-RxD\
+> HRCT=Host-RxD from Client-TxD\
+> HV非対応である以外は、UPDI4AVRと同等\
+> 端子ピッチは 2.54mm（100mil）
 
 ## 対応AVR品種
 
@@ -85,15 +96,38 @@ Microchip AVRシリーズ（UPDI採用世代）用のプログラミング機能
   - AVR16EB28
   - __AVR16EB32__
 
-> __太字__ は動作検証済\
+> 掲出以外のチップ形式は非対応、__太字__ は動作検証済\
 > AVRDUDE 7.2以前は AVR-EA/EB/DUシリーズ非対応
 
-## AVR-ICSP端子配列
+## 頒布物内容
 
-![ICSP-Pinout](https://askn37.github.io/product/SUM/Images/Image-1.drawio.svg)
+- SUMモジュール基板本体（1個）
+- 細ピンヘッダー（10ピン分、要加工／ハンダ付け）
 
-> HV機能未対応である以外は、UPDI4AVRと同一機能\
-> 端子ピッチは 2.54mm（100mil）
+> その他のコネクタ／ケース部品等は製品に付属しない
+
+## 関連リンク
+
+- オープンハードウェア資料
+  - [https://github.com/askn37/askn37.github.io/tree/main/product/SUM](https://github.com/askn37/askn37.github.io/tree/main/product/SUM)
+  - 回路図
+  - PCB製造用ガーバーデータ
+  - PCBA製造用BOM/CPLファイル（JLCPCB規格）
+  - 専用ケース図面、3Dプリンタ製造ファイル
+- オープンソースファームウェア
+  - [__MultiX Zinnia UPDI4AVR Firmware Builder__](https://github.com/askn37/multix-zinnia-updi4avr-firmware-builder/) に同梱
+  - ボード／スケッチ選択: SERIAL/UPDI-MANAGER (SUM)
+- AVRプログラミングツール（SerialUPDI対応）
+  - [AVRDUDE](https://github.com/avrdudes/avrdude/releases)
+  - [pymcuprog](https://github.com/microchip-pic-avr-tools/pymcuprog)
+- Arduino IDE 用 AVRシリーズ SDK（SerialUPDI対応）
+  - [MCUdude/MegaCoreX](https://github.com/MCUdude/MegaCoreX) (megaAVR系統用、Arduino API互換)
+  - [SpenceKonde/megaTinyCore](https://github.com/SpenceKonde/megaTinyCore) (tinyAVR系統用、Arduino API互換)
+  - [SpenceKonde/DxCore](https://github.com/SpenceKonde/DxCore) (Microchip AVR系統用、Arduino API互換)
+  - [askn37/megaAVR](https://github.com/askn37/multix-zinnia-sdk-megaAVR) (tinyAVR+megaAVR系統用、Standard C/C++)
+  - [askn37/modernAVR](https://github.com/askn37/multix-zinnia-sdk-modernAVR) (Microchip AVR系統用、Standard C/C++)
+
+> 各SDKは、Arduino IDE 1.8.19での使用を推奨。2.x では（サードパーティ制約により）__正常に使用できない可能性が高い__
 
 ## Copyright and Contact
 
