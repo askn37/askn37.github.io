@@ -261,6 +261,34 @@
           "version" : "0.2.10"
         },
         {
+          "architecture" : "UPDI4AVR",
+          "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.11.zip",
+          "boards" : [
+            {
+              "name" : "Hardware model: MZU2306B (ATtiny1626)"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:ce83fbdb49ed7794723c44e836b20a2e9deacea99d99e141bb033e52db64b157",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
+          "size" : "283012",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.11.zip",
+          "version" : "0.2.11"
+        },
+        {
           "architecture" : "megaAVR",
           "archiveFileName" : "Multix-Zinnia-megaAVR-0.2.2.zip",
           "boards" : [
@@ -611,7 +639,7 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:a9fa4242db5e43dbd83dc80776a493afad3b3c726fda81244ec2b4a25a04ed30",
+          "checksum" : "SHA-256:8fdc59792718c1a7ac64fbacbe0525e4de07e083e5259164f5364e50fea06fae",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
           "size" : "680769",
