@@ -289,6 +289,34 @@
           "version" : "0.2.11"
         },
         {
+          "architecture" : "UPDI4AVR",
+          "archiveFileName" : "Multix-Zinnia-UPDI4AVR-0.2.12.zip",
+          "boards" : [
+            {
+              "name" : "Hardware model: MZU2306B (ATtiny1626)"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:23cb5b2f765bd97e8ef470f7bf3e59cbcf9c6550943fb1ff44c84f7d7c85c4fa",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
+          "size" : "283521",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.2.12.zip",
+          "version" : "0.2.12"
+        },
+        {
           "architecture" : "megaAVR",
           "archiveFileName" : "Multix-Zinnia-megaAVR-0.2.2.zip",
           "boards" : [
@@ -657,6 +685,43 @@
           ],
           "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.11.zip",
           "version" : "0.2.11"
+        },
+        {
+          "architecture" : "megaAVR",
+          "archiveFileName" : "Multix-Zinnia-megaAVR-0.2.12.zip",
+          "boards" : [
+            {
+              "name" : "megaAVR-0 Series ATmega808, ATmega1608, ATmega3208, ATmega4808, ATmega809, ATmega1609, ATmega3209, ATmega4809"
+            },
+            {
+              "name" : "tinyAVR-0 Series ATtiny202, ATtiny402, ATtiny204, ATtiny404, ATtiny804, ATtiny1604, ATtiny406, ATtiny806, ATtiny1606, ATtiny807, ATtiny1607"
+            },
+            {
+              "name" : "tinyAVR-1 Series ATtiny212, ATtiny412, ATtiny214, ATtiny414, ATtiny814, ATtiny1614, ATtiny416, ATtiny816, ATtiny1616, ATtiny3216, ATtiny417, ATtiny817, ATtiny1617, ATtiny3217"
+            },
+            {
+              "name" : "tinyAVR-2 Series ATtiny424, ATtiny824, ATtiny1624, ATtiny3224, ATtiny426, ATtiny826, ATtiny1626, ATtiny3226, ATtiny427, ATtiny827, ATtiny1627, ATtiny3227"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:c58a740c1dfba12a28993596da41b2dca33aefcb00a8f96c016a81bef8abfda5",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [megaAVR]",
+          "size" : "680901",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.12.zip",
+          "version" : "0.2.12"
         },
         {
           "architecture" : "modernAVR",
@@ -1087,6 +1152,49 @@
           ],
           "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.11.zip",
           "version" : "0.2.11"
+        },
+        {
+          "architecture" : "modernAVR",
+          "archiveFileName" : "Multix-Zinnia-modernAVR-0.2.12.zip",
+          "boards" : [
+            {
+              "name" : "AVR DA Series AVR32DA28, AVR64DA28, AVR128DA28, AVR32DA32, AVR64DA32, AVR128DA32, AVR32DA48, AVR64DA48, AVR128DA48, AVR64DA64, AVR128DA64"
+            },
+            {
+              "name" : "AVR DB Series AVR32DB28, AVR64DB28, AVR128DB28, AVR32DB32, AVR64DB32, AVR128DB32, AVR32DB48, AVR64DB48, AVR128DB48, AVR64DB64, AVR128DB64"
+            },
+            {
+              "name" : "AVR DD Series AVR16DD14, AVR32DD14, AVR64DD14, AVR16DD20, AVR32DD20, AVR64DD20, AVR16DD28, AVR32DD28, AVR64DD28, AVR16DD32, AVR32DD32, AVR64DD32"
+            },
+            {
+              "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
+            },
+            {
+              "name" : "AVR EB Series AVR16EB14, AVR16EB20, AVR16EB28, AVR16EB32"
+            },
+            {
+              "name" : "preliminary support: AVR DU Series AVR64DU28, AVR64DU32"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:eb29f5eeb1e15e3d6739ded6778440d510f787a360130f003b204ef4d368ac15",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [modernAVR]",
+          "size" : "755468",
+          "toolsDependencies" : [
+            {
+              "name" : "avr-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.2-arduino.1"
+            }
+          ],
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.2.12.zip",
+          "version" : "0.2.12"
         },
         {
           "architecture" : "reduceAVR",
