@@ -834,10 +834,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:ede7ebbf311ceff4d9bfe5fa226f02a3e61b369ea766e18b6572a316e9abb831",
+          "checksum" : "SHA-256:76fbefec1d5b5dea43f30ab3a81d04f5a3d523f0408f6fca9a2e4a23b90e5af8",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "512289",
+          "size" : "512290",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -1393,10 +1393,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:c096b29d8a068dbe658e67ecf9b212355422a6fed9b2d10f215fdc7ad4fdc0e3",
+          "checksum" : "SHA-256:1a89b2f3e77394fc97d8711349ad9a96579215a684a4817e58643037002422fa",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "599077",
+          "size" : "599078",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
