@@ -2,7 +2,7 @@
 
 Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.html) [(ja-JP)](https://askn37.github.io/product/UPDI4AVR/)
 
-![セット内容](https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png)
+<img src="https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png" width="640">
 
 ## 概要
 
@@ -66,18 +66,20 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
   - AVR16DD20 AVR32DD20 AVR64DD20
   - AVR16DD28 AVR32DD28 AVR64DD28
   - AVR16DD32 AVR32DD32 __AVR64DD32__
-- AVR_DU 系統（HV=8.2V to PF6）（2023/12時点で未発売）
-  - *AVR64DD28*
-  - *AVR64DD32*
+- AVR_DU 系統（HV=8.2V to PF6）（Typ. 7.5V）
+  - AVR16DU14 AVR32DU14
+  - AVR16DU20 AVR32DU20
+  - AVR16DU28 AVR32DU28 __AVR64DU28__
+  - AVR16DU32 AVR32DU32 __AVR64DU32__
 - AVR_EA 系統（HV=8.2V to PF6）
   - AVR16EA28 AVR32EA28 AVR64EA28
   - AVR16EA32 AVR32EA32 __AVR64EA32__
   - AVR16EA48 AVR32EA48 AVR64EA48
 - AVR_EB 系統（HV=8.2V to PF6）
-  - *AVR16EB14*
-  - *AVR16EB20*
-  - *AVR16EB28*
-  - *AVR16EB32*
+  - AVR16EB14
+  - AVR16EB20
+  - AVR16EB28
+  - __AVR16EB32__
 
 > __太字__ は動作検証済、*斜体* は暫定対応
 

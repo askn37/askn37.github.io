@@ -2,14 +2,14 @@
 
 Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.html) [(ja-JP)](https://askn37.github.io/product/UPDI4AVR/)
 
-![Set contents](https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png)
+<img src="https://askn37.github.io/product/UPDI4AVR/images/IMG_3530.png" width="640">
 
 ## Overview
 
 - New generation AVR 8 bit MCU dedicated program writing device with UPDI programmer.
 - Rewriting/backup/verification of Flash/EEPROM/FUSE, etc.
-- For tinyAVR-0/1/2, megeAVR-0, AVR DA/DB/DD/DU/EA/EB series only
-- HV (high voltage) control for tinyAVR-0/1/2, AVR_DD/DU/EA/EB series
+- For tinyAVR-0/1/2, megeAVR-0, AVR Dx, AVR Ex series only
+- HV (high voltage) control for tinyAVR-0/1/2, AVR DD/DU, AVR Ex series
 - Providing reset button function to target AVR devices
 - LOCK_BIT Lock/unlock
 - USERROW special write to locked AVR device
@@ -32,52 +32,54 @@ Switch Language [(en-US)](https://askn37.github.io/product/UPDI4AVR/README_en.ht
 - Expensive choice if HV control is not required.
 - Because it is handmade, there may be individual differences in appearance.
 
-## Compatible AVR types
+## Compatible AVR series
 
-- megaAVR-0 series (not HV)
+- megaAVR-0 family (not HV)
    - ATmega808 ATmega1608 ATmega3208 __ATmega4808__
    - ATmega809 ATmega1609 ATmega3209 __ATmega4809__
-- tinyAVR-0 series (HV=12V to PA0)
+- tinyAVR-0 family (HV=12V to PA0)
    - __ATtiny202__ ATtiny402
    - ATtiny204 ATtiny404 ATtiny804 ATtiny1604
    - ATtiny406 ATtiny806 ATtiny1606
    - ATtiny807 ATtiny1607
-- tinyAVR-1 series (HV=12V to PA0)
+- tinyAVR-1 family (HV=12V to PA0)
    - ATtiny212 __ATtiny412__
    - ATtiny214 ATtiny414 ATtiny814 __ATtiny1614__
    - ATtiny416 ATtiny816 __ATtiny1616__
    - ATtiny417 ATtiny817 ATtiny1617
-- tinyAVR-2 series (HV=12V to PA0)
+- tinyAVR-2 family (HV=12V to PA0)
    - ATtiny424 __ATtiny824__ ATtiny1624 ATtiny3224
    - ATtiny426 ATtiny826 __ATtiny1626__ __ATtiny3226__
    - ATtiny427 ATtiny827 ATtiny1627 ATtiny3227
-- AVR_DA series (not HV)
+- AVR_DA family (not HV)
    - AVR32DA28 AVR64DA28 __AVR128DA28__
    - __AVR32DA32__ AVR64DA32 AVR128DA32
    - AVR32DA48 AVR64DA48 AVR128DA48
    - AVR32DA64 AVR64DA64 AVR128DA64
-- AVR_DB series (not HV)
+- AVR_DB family (not HV)
    - AVR32DB28 AVR64DB28 AVR128DB28
    - AVR32DB32 AVR64DB32 __AVR128DB32__
    - AVR32DB48 AVR64DB48 __AVR128DB48__
    - AVR32DB64 AVR64DB64 AVR128DB64
-- AVR_DD series (HV=8.2V to PF6)
+- AVR_DD family (HV=8.2V to PF6)
    - AVR16DD14 __AVR32DD14__ AVR64DD14
    - AVR16DD20 AVR32DD20 AVR64DD20
    - AVR16DD28 AVR32DD28 AVR64DD28
    - AVR16DD32 AVR32DD32 __AVR64DD32__
-- AVR_DU series (HV=8.2V to PF6) (Unreleased as of 2023/12)
-   - *AVR64DD28*
-   - *AVR64DD32*
-- AVR_EA series (HV=8.2V to PF6)
-   - AVR16EA28 AVR32EA28 AVR64EA28
-   - AVR16EA32 AVR32EA32 __AVR64EA32__
-   - AVR16EA48 AVR32EA48 AVR64EA48
-- AVR_EB series (HV=8.2V to PF6)
-   - *AVR16EB14*
-   - *AVR16EB20*
-   - *AVR16EB28*
-   - *AVR16EB32*
+- AVR_DU family（HV=8.2V to PF6）(Typ. 7.5V)
+  - AVR16DU14 AVR32DU14
+  - AVR16DU20 AVR32DU20
+  - AVR16DU28 AVR32DU28 __AVR64DU28__
+  - AVR16DU32 AVR32DU32 __AVR64DU32__
+- AVR_EA family（HV=8.2V to PF6）
+  - AVR16EA28 AVR32EA28 AVR64EA28
+  - AVR16EA32 AVR32EA32 __AVR64EA32__
+  - AVR16EA48 AVR32EA48 AVR64EA48
+- AVR_EB family（HV=8.2V to PF6）
+  - AVR16EB14
+  - AVR16EB20
+  - AVR16EB28
+  - __AVR16EB32__
 
 > __Bold__ indicates operation has been verified, *Italics* indicate preliminary support
 
