@@ -353,10 +353,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:6527eddc2d974461d619e8dab0bd842878646d4c840dbbc43a0725536e70e1df",
+          "checksum" : "SHA-256:a0f86792ae1d2244f9a82c2649712dde6fd0b42397854a891fd1bf3f6b2b0052",
           "deprecated" : false,
           "name" : "MultiX Zinnia UPDI4AVR Firmware Builder",
-          "size" : "285875",
+          "size" : "286072",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -834,10 +834,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:2f8263d5e5aa565e435701dc75aeec89d9d82fe9d124283a6427ec09724caa3f",
+          "checksum" : "SHA-256:c0910d31e9a8a258098407a31fdb89a27d732597796f460fd4f6b076c5481e8f",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "516925",
+          "size" : "517122",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -1393,10 +1393,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:6c6db8c50fbe7dedcae5f46e9fa246c2e0568ca5d4683363bd854ddf87122168",
+          "checksum" : "SHA-256:263e80e7b59a12cc3ef5f51c7f911f358b0b3d6e54d2ac311c20385d7aaa5c14",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "603530",
+          "size" : "603727",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -1763,10 +1763,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:d66359f36bc91f4786802eb40d5cf456f478ce6131db266a8061d2fde05a4b04",
+          "checksum" : "SHA-256:cdbf9f6d53648eff7279ed226f266797aae7b33a65a30e3a945947c9c29d8c50",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : "90664",
+          "size" : "90926",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
