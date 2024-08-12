@@ -25,6 +25,14 @@ We publish downloadable data that anyone can use, modify, and redistribute freel
 
 - [Click Here](product/opendata)
 
+## Firmware "UPDI4AVR-USB" : OSS/OSHW Programmer for UPDI/TPI
+
+- Open source software/firmware that transforms the AVR-DU family into a USB-connected programmer.
+- Can read/erase/write NVM (non-volatile memory) of UPDI and TPI type AVR series.
+- AVRDUDE is assumed as the programming application on the host PC. It looks like "PICKit4" or "Curiosity Nano".
+- Equipped with VCP-UART transfer function.
+- [For repository (ja-JP)](https://github.com/askn37/UPDI4AVR-USB/) [(en-US)](https://github.com/askn37/UPDI4AVR-USB/blob/main/README_en.md)
+
 ## Firmware "JTAG2UPDI" (Clone) : UPDI NVM Reader/Writer Firmware for Arduino Compatible
 
 - JTAG2UPDI clone with support for NVMCTRL versions 0, 2, 3, and 5
