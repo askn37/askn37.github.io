@@ -31,7 +31,7 @@ We publish downloadable data that anyone can use, modify, and redistribute freel
 - Can read/erase/write NVM (non-volatile memory) of UPDI and TPI type AVR series.
 - AVRDUDE is assumed as the programming application on the host PC. It looks like "PICKit4" or "Curiosity Nano".
 - Equipped with VCP-UART transfer function.
-- [For repository (ja-JP)](https://github.com/askn37/UPDI4AVR-USB/) [(en-US)](https://github.com/askn37/UPDI4AVR-USB/blob/main/README_en.md)
+- [For repository (en-US)](https://github.com/askn37/UPDI4AVR-USB/) [(ja-JP)](https://github.com/askn37/UPDI4AVR-USB/blob/main/README_jp.md)
 
 ## Firmware "JTAG2UPDI" (Clone) : UPDI NVM Reader/Writer Firmware for Arduino Compatible
 
