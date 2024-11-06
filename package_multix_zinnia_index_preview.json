@@ -170,7 +170,7 @@
             {
               "name" : "avrdude",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.2-arduino.1"
+              "version" : "8.0-arduino.1"
             }
           ],
           "url" : "https://askn37.github.io/archives/Multix-Zinnia-UPDI4AVR-0.3.0.zip",
@@ -392,7 +392,7 @@
             {
               "name" : "avrdude",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.2-arduino.1"
+              "version" : "8.0-arduino.1"
             }
           ],
           "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.3.0.zip",
@@ -668,7 +668,7 @@
             {
               "name" : "avrdude",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.2-arduino.1"
+              "version" : "8.0-arduino.1"
             }
           ],
           "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.3.0.zip",
@@ -816,7 +816,7 @@
             {
               "name" : "avrdude",
               "packager" : "MultiX-Zinnia",
-              "version" : "7.2-arduino.1"
+              "version" : "8.0-arduino.1"
             }
           ],
           "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.3.0.zip",
