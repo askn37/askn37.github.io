@@ -210,7 +210,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.10.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.10.zip",
           "version" : "0.2.10"
         },
         {
@@ -247,7 +247,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.11.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.11.zip",
           "version" : "0.2.11"
         },
         {
@@ -284,7 +284,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.12.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.12.zip",
           "version" : "0.2.12"
         },
         {
@@ -321,7 +321,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.13.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.13.zip",
           "version" : "0.2.13"
         },
         {
@@ -358,7 +358,7 @@
               "version" : "7.2-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.14.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.2.14.zip",
           "version" : "0.2.14"
         },
         {
@@ -379,10 +379,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:c932b49c90dfbd6c9ae5dbcc36f8016040ff3e65442a667eb63f6782f39355b8",
+          "checksum" : "SHA-256:abe807b045e891e06e96ad599b4077a89dc65b6fb621c0417ab4678a2ec85039",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : "512303",
+          "size" : "506415",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
@@ -395,7 +395,7 @@
               "version" : "8.0-arduino.1"
             }
           ],
-          "url" : "http://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.3.0.zip",
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.3.0.zip",
           "version" : "0.3.0"
         },
         {
@@ -655,10 +655,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:f3173abd4c9e10e9d334970c6ef5fe824b18301bd32fc2e8ec8932a0c9ce8609",
+          "checksum" : "SHA-256:99942ab09726d218a384693cc5f9dafb7c215827a7177f65ae50e44b3f520a8b",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : "602141",
+          "size" : "602999",
           "toolsDependencies" : [
             {
               "name" : "avr-gcc",
