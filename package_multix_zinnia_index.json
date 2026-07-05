@@ -5,7 +5,7 @@
       "help" : {
         "online" : "https://github.com/askn37/askn37.github.io/wiki/InformationSDK"
       },
-      "maintainer" : "@askn https://twitter.com/askn37",
+      "maintainer" : "MultiX",
       "name" : "MultiX-Zinnia",
       "platforms" : [
         {
@@ -451,6 +451,57 @@
           ],
           "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.3.0.zip",
           "version" : "0.3.0"
+        },
+        {
+          "architecture" : "modernAVR",
+          "archiveFileName" : "Multix-Zinnia-modernAVR-0.4.0.zip",
+          "boards" : [
+            {
+              "name" : "AVR DA Series AVR32DA28, AVR64DA28, AVR128DA28, AVR32DA32, AVR64DA32, AVR128DA32, AVR32DA48, AVR64DA48, AVR128DA48, AVR64DA64, AVR128DA64"
+            },
+            {
+              "name" : "AVR DA-S Series AVR128DA28S, AVR128DA32S, AVR128DA48S, AVR128DA64S"
+            },
+            {
+              "name" : "AVR DB Series AVR32DB28, AVR64DB28, AVR128DB28, AVR32DB32, AVR64DB32, AVR128DB32, AVR32DB48, AVR64DB48, AVR128DB48, AVR64DB64, AVR128DB64"
+            },
+            {
+              "name" : "AVR DD Series AVR16DD14, AVR32DD14, AVR64DD14, AVR16DD20, AVR32DD20, AVR64DD20, AVR16DD28, AVR32DD28, AVR64DD28, AVR16DD32, AVR32DD32, AVR64DD32"
+            },
+            {
+              "name" : "AVR DU Series AVR16DU14, AVR32DU14, AVR16DU20, AVR32DU20, AVR16DU28, AVR32DU28, AVR64DU28, AVR16DU32, AVR32DU32, AVR64DU32"
+            },
+            {
+              "name" : "AVR EA Series AVR16EA28, AVR21EA28, AVR64EA28, AVR16EA32, AVR32EA32, AVR64EA32, AVR16EA48, AVR32EA48, AVR64EA48"
+            },
+            {
+              "name" : "AVR EB Series AVR16EB14, AVR32EB14, AVR16EB20, AVR32EB20, AVR16EB28, AVR32EB28, AVR16EB32, AVR32EB32"
+            }
+          ],
+          "category" : "Contributed",
+          "checksum" : "SHA-256:06dbf5fcc158c36e928db843fcc81e55a574bb6a6606851ed6f43077ff292632",
+          "deprecated" : false,
+          "name" : "MultiX Zinnia Product SDK [modernAVR]",
+          "size" : 582436,
+          "toolsDependencies" : [
+            {
+              "name" : "avrdude",
+              "packager" : "MultiX-Zinnia",
+              "version" : "8.1-avrdude"
+            },
+            {
+              "name" : "avr8-gcc",
+              "packager" : "MultiX-Zinnia",
+              "version" : "7.3.0-avr8-gnu-toolchain"
+            },
+            {
+              "name" : "atpack",
+              "packager" : "MultiX-Zinnia",
+              "version" : "20260521"
+            }
+          ],
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.4.0.zip",
+          "version" : "0.4.0"
         }
       ],
       "tools" : [
@@ -578,7 +629,82 @@
           "version" : "8.0-arduino.1"
         },
         {
+          "name" : "avrdude",
+          "systems" : [
+            {
+              "archiveFileName" : "avrdude_v8.1_macOS_64bit.tar.gz",
+              "checksum" : "SHA-256:d7739fbb5d1fe649511121a695dac3f4ca5ccb348919bf1f45f9bc5a2ea0ce72",
+              "host" : "x86_64-apple-darwin12",
+              "size" : 3331581,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_macOS_64bit.tar.gz"
+            },
+            {
+              "archiveFileName" : "avrdude_v8.1_Windows_32bit.tar.gz",
+              "checksum" : "SHA-256:94016c6b17dd98592f4e50087d4d0fc7d5fd26f471d16b0a9a3e6dc93b154f2a",
+              "host" : "i686-mingw32",
+              "size" : 4094555,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Windows_32bit.tar.gz"
+            },
+            {
+              "archiveFileName" : "avrdude_v8.1_Linux_ARMv6.tar.gz",
+              "checksum" : "SHA-256:174343ea5c4c3b0d29e98eb4c8de44e0f075a407fded755a1b7fcf793909d1da",
+              "host" : "arm-linux-gnueabihf",
+              "size" : 3633265,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Linux_ARMv6.tar.gz"
+            },
+            {
+              "archiveFileName" : "avrdude_v8.1_Linux_ARM64.tar.gz",
+              "checksum" : "SHA-256:9e1f2c1e7988bac93f30e5e8aea6cd7a9c8e782542f4d93dc04b6495820184d8",
+              "host" : "aarch64-linux-gnu",
+              "size" : 3775587,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Linux_ARM64.tar.gz"
+            },
+            {
+              "archiveFileName" : "avrdude_v8.1_Linux_64bit.tar.gz",
+              "checksum" : "SHA-256:c751c88b1c0b886834d85cd4b19f100cc3415c896ab9f98cf7e2955edbcd678f",
+              "host" : "x86_64-linux-gnu",
+              "size" : 3705519,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Linux_64bit.tar.gz"
+            },
+            {
+              "archiveFileName" : "avrdude_v8.1_Linux_32bit.tar.gz",
+              "checksum" : "SHA-256:de4b3fbf0683fd998e139a352392994566a7d729f67d32dd95cfaf95abe08b09",
+              "host" : "i686-linux-gnu",
+              "size" : 3662393,
+              "url" : "https://github.com/avrdudes/avrdude/releases/download/v8.1/avrdude_v8.1_Linux_32bit.tar.gz"
+            }
+          ],
+          "version" : "8.1-avrdude"
+        },
+        {
           "name" : "avr8-gcc",
+          "systems" : [
+            {
+              "archiveFileName" : "avr8-gnu-toolchain-osx-3.7.0.518-darwin.any.x86_64.tar.gz",
+              "checksum" : "SHA-256:378b210cc82dc06599b5a45dede0ed188a9e87f2de045f12cf3547554edd6ec8",
+              "host" : "x86_64-apple-darwin",
+              "size" : 52111217,
+              "url" : "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/avr8-gnu-toolchain-osx-3.7.0.518-darwin.any.x86_64.tar.gz"
+            },
+            {
+              "archiveFileName" : "avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64.zip",
+              "checksum" : "SHA-256:4aba6af3334ddf10718a53a1a09c22ddebdd7741fdbad982104b14a1bb11553f",
+              "host" : "x86_64-mingw32",
+              "size" : 51285265,
+              "url" : "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64.zip"
+            },
+            {
+              "archiveFileName" : "avr8-gnu-toolchain-3.7.0.1796-linux.any.x86_64.tar.gz",
+              "checksum" : "SHA-256:a541771cfc167e13a3206037625e15e369c562c289504edca9c7b76743974096",
+              "host" : "x86_64-linux-gnu",
+              "size" : 46736050,
+              "url" : "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/avr8-gnu-toolchain-3.7.0.1796-linux.any.x86_64.tar.gz"
+            }
+          ],
+          "version" : "7.3.0-avr8-gnu-toolchain"
+        },
+        {
+          "name" : "avr8-gcc15",
           "systems" : [
             {
               "archiveFileName" : "avr8-gnu-toolchain-4.0.0.52-darwin.any.universal.tar.gz",
@@ -612,242 +738,38 @@
           "version" : "15.1.0-avr8-gnu-toolchain"
         },
         {
-          "name" : "ATautomotive",
+          "name" : "atpack",
           "systems" : [
             {
-              "archiveFileName" : "atpack.Microchip.ATautomotive_DFP.3.1.73.zip",
-              "checksum" : "SHA-256:9fac26dff5c22193c9dbbd443b3b09152a12d17f700e4fe9f03e702e08024992",
+              "archiveFileName" : "Microchip.AVR8-atpack-20260521.zip",
+              "checksum" : "SHA-256:4de463ed6fee28bebd586c51432d9fc493377308712cbfedc1a5e569de043458",
               "host" : "x86_64-apple-darwin",
-              "size" : 1625940,
-              "url" : "https://askn37.github.io/archives/Microchip.ATautomotive_DFP.3.1.73.zip"
+              "size" : 10896088,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260521.zip"
             },
             {
-              "archiveFileName" : "atpack.Microchip.ATautomotive_DFP.3.1.73.zip",
-              "checksum" : "SHA-256:9fac26dff5c22193c9dbbd443b3b09152a12d17f700e4fe9f03e702e08024992",
+              "archiveFileName" : "Microchip.AVR8-atpack-20260521.zip",
+              "checksum" : "SHA-256:4de463ed6fee28bebd586c51432d9fc493377308712cbfedc1a5e569de043458",
               "host" : "arm64-apple-darwin",
-              "size" : 1625940,
-              "url" : "https://askn37.github.io/archives/Microchip.ATautomotive_DFP.3.1.73.zip"
+              "size" : 10896088,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260521.zip"
             },
             {
-              "archiveFileName" : "atpack.Microchip.ATautomotive_DFP.3.1.73.zip",
-              "checksum" : "SHA-256:9fac26dff5c22193c9dbbd443b3b09152a12d17f700e4fe9f03e702e08024992",
+              "archiveFileName" : "Microchip.AVR8-atpack-20260521.zip",
+              "checksum" : "SHA-256:4de463ed6fee28bebd586c51432d9fc493377308712cbfedc1a5e569de043458",
               "host" : "x86_64-mingw32",
-              "size" : 1625940,
-              "url" : "https://askn37.github.io/archives/Microchip.ATautomotive_DFP.3.1.73.zip"
+              "size" : 10896088,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260521.zip"
             },
             {
-              "archiveFileName" : "atpack.Microchip.ATautomotive_DFP.3.1.73.zip",
-              "checksum" : "SHA-256:9fac26dff5c22193c9dbbd443b3b09152a12d17f700e4fe9f03e702e08024992",
+              "archiveFileName" : "Microchip.AVR8-atpack-20260521.zip",
+              "checksum" : "SHA-256:4de463ed6fee28bebd586c51432d9fc493377308712cbfedc1a5e569de043458",
               "host" : "x86_64-linux-gnu",
-              "size" : 1625940,
-              "url" : "https://askn37.github.io/archives/Microchip.ATautomotive_DFP.3.1.73.zip"
+              "size" : 10896088,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260521.zip"
             }
           ],
-          "version" : "3.1.73"
-        },
-        {
-          "name" : "ATmega",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.ATmega_DFP.3.6.299.zip",
-              "checksum" : "SHA-256:fe424cf4458346daa367bcb26beb2f42d6195187a9ba3f2d8e9d4828395e5ae1",
-              "host" : "x86_64-apple-darwin",
-              "size" : 35625540,
-              "url" : "https://askn37.github.io/archives/Microchip.ATmega_DFP.3.6.299.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATmega_DFP.3.6.299.zip",
-              "checksum" : "SHA-256:fe424cf4458346daa367bcb26beb2f42d6195187a9ba3f2d8e9d4828395e5ae1",
-              "host" : "arm64-apple-darwin",
-              "size" : 35625540,
-              "url" : "https://askn37.github.io/archives/Microchip.ATmega_DFP.3.6.299.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATmega_DFP.3.6.299.zip",
-              "checksum" : "SHA-256:fe424cf4458346daa367bcb26beb2f42d6195187a9ba3f2d8e9d4828395e5ae1",
-              "host" : "x86_64-mingw32",
-              "size" : 35625540,
-              "url" : "https://askn37.github.io/archives/Microchip.ATmega_DFP.3.6.299.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATmega_DFP.3.6.299.zip",
-              "checksum" : "SHA-256:fe424cf4458346daa367bcb26beb2f42d6195187a9ba3f2d8e9d4828395e5ae1",
-              "host" : "x86_64-linux-gnu",
-              "size" : 35625540,
-              "url" : "https://askn37.github.io/archives/Microchip.ATmega_DFP.3.6.299.zip"
-            }
-          ],
-          "version" : "3.6.299"
-        },
-        {
-          "name" : "ATtiny",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.ATtiny_DFP.3.4.278.zip",
-              "checksum" : "SHA-256:5540118c4c9a1934e70bb7f36963c3f7f2a14fe8a8b9275bfdeef9f6e7ab425a",
-              "host" : "x86_64-apple-darwin",
-              "size" : 33550970,
-              "url" : "https://askn37.github.io/archives/Microchip.ATtiny_DFP.3.4.278.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATtiny_DFP.3.4.278.zip",
-              "checksum" : "SHA-256:5540118c4c9a1934e70bb7f36963c3f7f2a14fe8a8b9275bfdeef9f6e7ab425a",
-              "host" : "arm64-apple-darwin",
-              "size" : 33550970,
-              "url" : "https://askn37.github.io/archives/Microchip.ATtiny_DFP.3.4.278.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATtiny_DFP.3.4.278.zip",
-              "checksum" : "SHA-256:5540118c4c9a1934e70bb7f36963c3f7f2a14fe8a8b9275bfdeef9f6e7ab425a",
-              "host" : "x86_64-mingw32",
-              "size" : 33550970,
-              "url" : "https://askn37.github.io/archives/Microchip.ATtiny_DFP.3.4.278.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.ATtiny_DFP.3.4.278.zip",
-              "checksum" : "SHA-256:5540118c4c9a1934e70bb7f36963c3f7f2a14fe8a8b9275bfdeef9f6e7ab425a",
-              "host" : "x86_64-linux-gnu",
-              "size" : 33550970,
-              "url" : "https://askn37.github.io/archives/Microchip.ATtiny_DFP.3.4.278.zip"
-            }
-          ],
-          "version" : "3.4.278"
-        },
-        {
-          "name" : "AVR-Dx",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Dx_DFP.2.8.343.zip",
-              "checksum" : "SHA-256:3292cf8242fc83c1771a84d677323c255e24e9cb5ab9e09aff3d861d080c2ce7",
-              "host" : "x86_64-apple-darwin",
-              "size" : 16798945,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Dx_DFP.2.8.343.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Dx_DFP.2.8.343.zip",
-              "checksum" : "SHA-256:3292cf8242fc83c1771a84d677323c255e24e9cb5ab9e09aff3d861d080c2ce7",
-              "host" : "arm64-apple-darwin",
-              "size" : 16798945,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Dx_DFP.2.8.343.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Dx_DFP.2.8.343.zip",
-              "checksum" : "SHA-256:3292cf8242fc83c1771a84d677323c255e24e9cb5ab9e09aff3d861d080c2ce7",
-              "host" : "x86_64-mingw32",
-              "size" : 16798945,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Dx_DFP.2.8.343.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Dx_DFP.2.8.343.zip",
-              "checksum" : "SHA-256:3292cf8242fc83c1771a84d677323c255e24e9cb5ab9e09aff3d861d080c2ce7",
-              "host" : "x86_64-linux-gnu",
-              "size" : 16798945,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Dx_DFP.2.8.343.zip"
-            }
-          ],
-          "version" : "2.8.343"
-        },
-        {
-          "name" : "AVR-Ex",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Ex_DFP.2.12.239.zip",
-              "checksum" : "SHA-256:3e2b36c24f413495a771e7597eb90db398a7fea95f40a1b41354fcae3d28370c",
-              "host" : "x86_64-apple-darwin",
-              "size" : 4523567,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Ex_DFP.2.12.239.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Ex_DFP.2.12.239.zip",
-              "checksum" : "SHA-256:3e2b36c24f413495a771e7597eb90db398a7fea95f40a1b41354fcae3d28370c",
-              "host" : "arm64-apple-darwin",
-              "size" : 4523567,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Ex_DFP.2.12.239.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Ex_DFP.2.12.239.zip",
-              "checksum" : "SHA-256:3e2b36c24f413495a771e7597eb90db398a7fea95f40a1b41354fcae3d28370c",
-              "host" : "x86_64-mingw32",
-              "size" : 4523567,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Ex_DFP.2.12.239.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Ex_DFP.2.12.239.zip",
-              "checksum" : "SHA-256:3e2b36c24f413495a771e7597eb90db398a7fea95f40a1b41354fcae3d28370c",
-              "host" : "x86_64-linux-gnu",
-              "size" : 4523567,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Ex_DFP.2.12.239.zip"
-            }
-          ],
-          "version" : "2.12.239"
-        },
-        {
-          "name" : "AVR-Lx",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Lx_DFP.1.3.46.zip",
-              "checksum" : "SHA-256:c4c3d7445a298e04698da4f53adf2ec8071a67d595ef25bf3a2b47faebaeb9c6",
-              "host" : "x86_64-apple-darwin",
-              "size" : 1928022,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Lx_DFP.1.3.46.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Lx_DFP.1.3.46.zip",
-              "checksum" : "SHA-256:c4c3d7445a298e04698da4f53adf2ec8071a67d595ef25bf3a2b47faebaeb9c6",
-              "host" : "arm64-apple-darwin",
-              "size" : 1928022,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Lx_DFP.1.3.46.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Lx_DFP.1.3.46.zip",
-              "checksum" : "SHA-256:c4c3d7445a298e04698da4f53adf2ec8071a67d595ef25bf3a2b47faebaeb9c6",
-              "host" : "x86_64-mingw32",
-              "size" : 1928022,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Lx_DFP.1.3.46.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Lx_DFP.1.3.46.zip",
-              "checksum" : "SHA-256:c4c3d7445a298e04698da4f53adf2ec8071a67d595ef25bf3a2b47faebaeb9c6",
-              "host" : "x86_64-linux-gnu",
-              "size" : 1928022,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Lx_DFP.1.3.46.zip"
-            }
-          ],
-          "version" : "1.3.46"
-        },
-        {
-          "name" : "AVR-Sx",
-          "systems" : [
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Sx_DFP.1.2.26.zip",
-              "checksum" : "SHA-256:33b28aa5cb4ccbc071b6ed372c8dd98889f3192e3965cf5333344fcc53664db7",
-              "host" : "x86_64-apple-darwin",
-              "size" : 970289,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Sx_DFP.1.2.26.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Sx_DFP.1.2.26.zip",
-              "checksum" : "SHA-256:33b28aa5cb4ccbc071b6ed372c8dd98889f3192e3965cf5333344fcc53664db7",
-              "host" : "arm64-apple-darwin",
-              "size" : 970289,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Sx_DFP.1.2.26.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Sx_DFP.1.2.26.zip",
-              "checksum" : "SHA-256:33b28aa5cb4ccbc071b6ed372c8dd98889f3192e3965cf5333344fcc53664db7",
-              "host" : "x86_64-mingw32",
-              "size" : 970289,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Sx_DFP.1.2.26.zip"
-            },
-            {
-              "archiveFileName" : "atpack.Microchip.AVR-Sx_DFP.1.2.26.zip",
-              "checksum" : "SHA-256:33b28aa5cb4ccbc071b6ed372c8dd98889f3192e3965cf5333344fcc53664db7",
-              "host" : "x86_64-linux-gnu",
-              "size" : 970289,
-              "url" : "https://askn37.github.io/archives/Microchip.AVR-Sx_DFP.1.2.26.zip"
-            }
-          ],
-          "version" : "1.2.26"
+          "version" : "20260521"
         }
       ],
       "websiteURL" : "https://askn37.github.io/"
