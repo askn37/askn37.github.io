@@ -73,7 +73,9 @@
 
 ファームウェアのアップデートは、本体と別に TPIプログラマライターが必要。（必須）
 
-- [Multix Zinnia "TPI4AVR"](../TPI4AVR) -- TPIプログラマライター
+- [USB4AVR-USB](https://github.com/askn37/UPDI4AVR-USB/) -- UPDI/PDI/TPIプログラムライター
+  - ["AVR64DU32 Curiosity Nano : EV59F82A"](https://www.microchip.com/en-us/development-tool/ev59f82a)を使用したNVM書換ソフトウェア。オススメ。
+- (旧開発) [Multix Zinnia "TPI4AVR"](../TPI4AVR) -- TPIプログラマライター
   - ハーフピッチSIP/6P と __コンスルーコネクタで直結して書換__
 - [Multix Zinnia Product SDK [reduceAVR] for Arduino IDE](https://github.com/askn37/multix-zinnia-sdk-reduceAVR)
   - [サンプルライブラリ/スケッチ として同梱](https://github.com/askn37/multix-zinnia-sdk-reduceAVR/tree/main/libraries/reduceAVR/examples/Miscellaneous/UPDI_Reset_Plus)
@@ -112,6 +114,7 @@
   - これがアタリで *avrdude.conf* を1箇所修正すれば TPI書込可能になると判明。
     - 書換えずに済ませるには *avrdude* にパッチを当てなければならないが。
   - そんな遠回りをした後は簡単だった。
+    - さらにその後 [USB4AVR-USB](https://github.com/askn37/UPDI4AVR-USB/) が完成したことで HV書換対応以外の苦労は全てなくなった。
 - __URP作成（本題）__
   - 設計は ATtiny10 にタクトスイッチ1個とパスコン、あとはスルーホールソケット実装のみ。
   - UPDI通信生成はビットパターンを GPIO にプッシュするだけ。
