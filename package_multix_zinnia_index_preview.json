@@ -765,7 +765,7 @@
             {
               "archiveFileName" : "avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64.zip",
               "checksum" : "SHA-256:ccc9712ca20edc713dcf101013f80ba245b418ebfb02fc98e9f44f7733fe086a",
-              "host" : "x86_64-mingw32",
+              "host" : "i686-mingw32",
               "size" : 113604384,
               "url" : "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64.zip"
             },
