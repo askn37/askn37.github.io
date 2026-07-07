@@ -479,7 +479,7 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:06dbf5fcc158c36e928db843fcc81e55a574bb6a6606851ed6f43077ff292632",
+          "checksum" : "SHA-256:80d8010e044cea49133acf22ffbeff488e7b7c981788fc8b2bfb17b21693b6fe",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
           "size" : 582436,
