@@ -731,7 +731,7 @@
             {
               "archiveFileName" : "avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64.zip",
               "checksum" : "SHA-256:4aba6af3334ddf10718a53a1a09c22ddebdd7741fdbad982104b14a1bb11553f",
-              "host" : "x86_64-mingw32",
+              "host" : "i686-mingw32",
               "size" : 51285265,
               "url" : "https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64.zip"
             },
@@ -799,7 +799,7 @@
             {
               "archiveFileName" : "Microchip.AVR8-atpack-20260521.zip",
               "checksum" : "SHA-256:4de463ed6fee28bebd586c51432d9fc493377308712cbfedc1a5e569de043458",
-              "host" : "x86_64-mingw32",
+              "host" : "i686-mingw32",
               "size" : 10896088,
               "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260521.zip"
             },
