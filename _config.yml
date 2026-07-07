@@ -1,2 +1,5 @@
+url: https://askn37.github.io
+baseurl: ""
+
 plugins:
- - jekyll-sitemap
+  - jekyll-sitemap
