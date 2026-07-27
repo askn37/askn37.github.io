@@ -346,16 +346,10 @@
           "archiveFileName" : "Multix-Zinnia-reduceAVR-0.2.13.zip",
           "boards" : [
             {
-              "name" : "ATtiny4"
+              "name" : "ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny102, ATtiny104"
             },
             {
-              "name" : "ATtiny5"
-            },
-            {
-              "name" : "ATtiny9"
-            },
-            {
-              "name" : "ATtiny10"
+              "name" : "Not Recommended for New Designs : ATtiny20, ATtiny40"
             }
           ],
           "category" : "Contributed",
@@ -383,16 +377,10 @@
           "archiveFileName" : "Multix-Zinnia-reduceAVR-0.2.14.zip",
           "boards" : [
             {
-              "name" : "ATtiny4"
+              "name" : "ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny102, ATtiny104"
             },
             {
-              "name" : "ATtiny5"
-            },
-            {
-              "name" : "ATtiny9"
-            },
-            {
-              "name" : "ATtiny10"
+              "name" : "Not Recommended for New Designs : ATtiny20, ATtiny40"
             }
           ],
           "category" : "Contributed",
@@ -420,16 +408,10 @@
           "archiveFileName" : "Multix-Zinnia-reduceAVR-0.3.0.zip",
           "boards" : [
             {
-              "name" : "ATtiny4"
+              "name" : "ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny102, ATtiny104"
             },
             {
-              "name" : "ATtiny5"
-            },
-            {
-              "name" : "ATtiny9"
-            },
-            {
-              "name" : "ATtiny10"
+              "name" : "Not Recommended for New Designs : ATtiny20, ATtiny40"
             }
           ],
           "category" : "Contributed",
@@ -743,10 +725,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:54049ca28b2d85840d5ca2cbc81ee1fb6a359bab45b862972230dcc97dc2c35e",
+          "checksum" : "SHA-256:4f8bb826406abb0abb4e73842ec2d0a355b1077a4ee6b066bf4ec9f28ace1aa0",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : 125504,
+          "size" : 128891,
           "toolsDependencies" : [
             {
               "name" : "avrdude",
