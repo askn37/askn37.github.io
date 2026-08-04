@@ -1214,6 +1214,40 @@
             }
           ],
           "version" : "20260521"
+        },
+        {
+          "name" : "atpack",
+          "systems" : [
+            {
+              "archiveFileName" : "Microchip.AVR8-atpack-20260522.zip",
+              "checksum" : "SHA-256:f94ba131217887feca85f132e566d9f0315d28a90f5c2aec45ac144e067a7472",
+              "host" : "x86_64-apple-darwin",
+              "size" : 11153726,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260522.zip"
+            },
+            {
+              "archiveFileName" : "Microchip.AVR8-atpack-20260522.zip",
+              "checksum" : "SHA-256:f94ba131217887feca85f132e566d9f0315d28a90f5c2aec45ac144e067a7472",
+              "host" : "arm64-apple-darwin",
+              "size" : 11153726,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260522.zip"
+            },
+            {
+              "archiveFileName" : "Microchip.AVR8-atpack-20260522.zip",
+              "checksum" : "SHA-256:f94ba131217887feca85f132e566d9f0315d28a90f5c2aec45ac144e067a7472",
+              "host" : "i686-mingw32",
+              "size" : 11153726,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260522.zip"
+            },
+            {
+              "archiveFileName" : "Microchip.AVR8-atpack-20260522.zip",
+              "checksum" : "SHA-256:f94ba131217887feca85f132e566d9f0315d28a90f5c2aec45ac144e067a7472",
+              "host" : "x86_64-linux-gnu",
+              "size" : 11153726,
+              "url" : "https://askn37.github.io/archives/Microchip.AVR8-atpack-20260522.zip"
+            }
+          ],
+          "version" : "20260522"
         }
       ],
       "websiteURL" : "https://askn37.github.io/"
