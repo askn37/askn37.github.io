@@ -1031,10 +1031,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:943097adbde19bd77971dfb5f5f31bc9547f746bb8670461c757fb2af6a0d3ed",
+          "checksum" : "SHA-256:19fe85e129d36e7f9ff206f554b4fe0847c9d0b309b70c2dbf84cc997609e068",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : 129435,
+          "size" : 129490,
           "toolsDependencies" : [
             {
               "name" : "avrdude",
