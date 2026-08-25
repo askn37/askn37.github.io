@@ -16,7 +16,7 @@ __WARNING: Arduino compatible API is not provided.__
   [`https://askn37.github.io/package_multix_zinnia_index.json`](https://askn37.github.io/package_multix_zinnia_index.json)
 - Then search for `multix` in Boards Manager.
 - Select the desired architecture and install.\
-  `megaAVR` / `modernAVR` / `reduceAVR` / `UPDI4AVR`
+  `megaAVR` / `modernAVR` / `reduceAVR`
 - [For more information](https://github.com/askn37/askn37.github.io/wiki/InformationSDK) (ja-JP)
 
 ## OpenData
@@ -25,10 +25,12 @@ We publish downloadable data that anyone can use, modify, and redistribute freel
 
 - [Click Here](product/opendata)
 
-## Firmware "UPDI4AVR-USB" : OSS/OSHW Programmer for UPDI/TPI
+## Firmware "UPDI4AVR-USB" : OSS/OSHW Programmer for UPDI/TPI/PDI/ISP
+
+<img src="https://askn37.github.io/product/UPDI4AVR/images/IMG_3871.jpeg" width="400">
 
 - Open source software/firmware that transforms the AVR-DU family into a USB-connected programmer.
-- Can read/erase/write NVM (non-volatile memory) of UPDI and TPI type AVR series.
+- Supports reading, erasing, and writing NVM (non-volatile memory) for UPDI, TPI, PDI, and ISP (provisional) type AVR series devices.
 - AVRDUDE is assumed as the programming application on the host PC. It looks like "PICKit4" or "Curiosity Nano".
 - Equipped with VCP-UART transfer function.
 - [For repository (en-US)](https://github.com/askn37/UPDI4AVR-USB/) [(ja-JP)](https://github.com/askn37/UPDI4AVR-USB/blob/main/README_jp.md)
