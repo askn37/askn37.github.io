@@ -1519,7 +1519,7 @@
         },
         {
           "architecture" : "modernAVR",
-          "archiveFileName" : "Multix-Zinnia-modernAVR-0.4.9.zip",
+          "archiveFileName" : "Multix-Zinnia-modernAVR-0.4.10.zip",
           "boards" : [
             {
               "name" : "AVR DA Series AVR32DA28, AVR64DA28, AVR128DA28, AVR32DA32, AVR64DA32, AVR128DA32, AVR32DA48, AVR64DA48, AVR128DA48, AVR64DA64, AVR128DA64"
@@ -1550,10 +1550,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:fc52a9e6b922ba49f1349525e286e24d96d4f770b7b4a6d7626224061c92126f",
+          "checksum" : "SHA-256:d8eaaa136c24187e72e34838b1bf557e7c7aad608a69ab1dcdd6c353b5250b92",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [modernAVR]",
-          "size" : 646473,
+          "size" : 647129,
           "toolsDependencies" : [
             {
               "name" : "avrdude",
@@ -1571,12 +1571,12 @@
               "version" : "20260817"
             }
           ],
-          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.4.9.zip",
-          "version" : "0.4.9"
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-modernAVR-0.4.10.zip",
+          "version" : "0.4.10"
         },
         {
           "architecture" : "megaAVR",
-          "archiveFileName" : "Multix-Zinnia-megaAVR-0.4.9.zip",
+          "archiveFileName" : "Multix-Zinnia-megaAVR-0.4.10.zip",
           "boards" : [
             {
               "name" : "megaAVR-0 Series ATmega808, ATmega1608, ATmega3208, ATmega4808, ATmega809, ATmega1609, ATmega3209, ATmega4809"
@@ -1592,10 +1592,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:ea74e8859d77fd87d344161046d3aa0844d77f9c2ee5a757a44df67f66a87cd6",
+          "checksum" : "SHA-256:e8469fcc3b4a3521eeed8693274b5a22d97a1e4dfb4da06217052939efbbe5a7",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [megaAVR]",
-          "size" : 510487,
+          "size" : 511081,
           "toolsDependencies" : [
             {
               "name" : "avrdude",
@@ -1613,12 +1613,12 @@
               "version" : "20260817"
             }
           ],
-          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.4.9.zip",
-          "version" : "0.4.9"
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-megaAVR-0.4.10.zip",
+          "version" : "0.4.10"
         },
         {
           "architecture" : "reduceAVR",
-          "archiveFileName" : "Multix-Zinnia-reduceAVR-0.4.9.zip",
+          "archiveFileName" : "Multix-Zinnia-reduceAVR-0.4.10.zip",
           "boards" : [
             {
               "name" : "ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny102, ATtiny104"
@@ -1628,10 +1628,10 @@
             }
           ],
           "category" : "Contributed",
-          "checksum" : "SHA-256:9606617fe78c76d49232d758f441eb4fa57aad2f938c6ffbd0455846ae88f1b8",
+          "checksum" : "SHA-256:92c4cf2634f5219ccd33159c7c68992676236887609b2f1dff93cdc1e1759587",
           "deprecated" : false,
           "name" : "MultiX Zinnia Product SDK [reduceAVR]",
-          "size" : 141295,
+          "size" : 142278,
           "toolsDependencies" : [
             {
               "name" : "avrdude",
@@ -1649,8 +1649,8 @@
               "version" : "20260817"
             }
           ],
-          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.4.9.zip",
-          "version" : "0.4.9"
+          "url" : "https://askn37.github.io/archives/Multix-Zinnia-reduceAVR-0.4.10.zip",
+          "version" : "0.4.10"
         }
       ],
       "tools" : [
